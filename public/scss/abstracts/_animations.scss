@@ -1,0 +1,16 @@
+@use '../abstracts/colors';
+
+@keyframes hintButton {
+    0% {
+        transform: translateY(-50%);
+    }
+
+    70% {
+        transform: translateY(-70%);
+    }
+
+    100% {
+        transform: translateY(-50%);
+    }
+  }
+

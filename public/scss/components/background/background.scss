@@ -1,0 +1,10 @@
+@use "../../abstracts/colors";
+@use "../../abstracts/animations";
+
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/images/Background.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

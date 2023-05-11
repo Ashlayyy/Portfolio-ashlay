@@ -1,0 +1,45 @@
+@use '../../abstracts/colors';
+
+.settings {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+    gap: 1.5rem;
+    width: max-content;
+    height: 2rem;
+    padding: 3rem;
+    font-size: 3rem;
+
+    &__darkMode,
+    &__language {
+        animation: 0.3s all;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &[data-darkMode=off] &__darkMode[data-darkModeSwitch=off] {
+        display: block;
+    }
+    &[data-darkMode=off] &__darkMode[data-darkModeSwitch=on] {
+        display: none;
+    }
+    
+    &[data-darkMode=on] &__darkMode[data-darkModeSwitch=off] {
+        display: none;
+    }
+    &[data-darkMode=on] &__darkMode[data-darkModeSwitch=on] {
+        display: block;
+    }
+
+    /*
+    &[data-darkMode=off] &__language {
+        color: black;
+    }
+    &[data-darkMode=on] &__language {
+        color: white;
+    }
+    */
+}
