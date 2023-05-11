@@ -19,7 +19,21 @@ app.use(compression());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(bodyParser.raw());
-app.use(helmet());
+//app.use(helmet.contentSecurityPolicy());
+//app.use(helmet.crossOriginEmbedderPolicy());
+//app.use(helmet.crossOriginOpenerPolicy());
+app.use(helmet.crossOriginResourcePolicy());
+app.use(helmet.dnsPrefetchControl());
+app.use(helmet.expectCt());
+app.use(helmet.frameguard());
+app.use(helmet.hidePoweredBy());
+app.use(helmet.hsts());
+app.use(helmet.ieNoOpen());
+app.use(helmet.noSniff());
+app.use(helmet.originAgentCluster());
+app.use(helmet.permittedCrossDomainPolicies());
+app.use(helmet.referrerPolicy());
+app.use(helmet.xssFilter());
 app.use(morgan('dev'));
 
 
@@ -28,7 +42,10 @@ app.use('/', require('./routes/index'));
 app.use('/css', express.static('public/css'));
 app.use('/js', express.static('public/js'));
 app.use('/html', express.static('public/html'));
+app.use('/images', express.static('public/images'));
+
 app.use('/CustomComponents', express.static('public/components'));
+
 app.use(favicon(__dirname + '/public/images/favicon.ico'));
 
 /* Starting app on port specified above */
