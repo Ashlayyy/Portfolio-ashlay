@@ -1,2 +1,10 @@
+#Required
 node_modules
 .env
+
+#Not Finished
+json
+public/backup
+
+#Not Implemented
+logs
