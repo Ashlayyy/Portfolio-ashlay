@@ -2,8 +2,12 @@ $colors: (
     'textColor': #e9ffff
 );
 
+$hover: (
+    'textColor': #00897E
+);
+
 $button: (
     'primary': #4cd4cc,//#049bba,
-    'secondary': #10808b,
+    'secondary': #008F83,//#10808b,
     'shadow': rgba(155, 155, 155, 1)
 );

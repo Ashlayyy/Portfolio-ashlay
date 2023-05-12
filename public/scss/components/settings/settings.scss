@@ -13,10 +13,11 @@
 
     &__darkMode,
     &__language {
-        animation: 0.3s all;
+        animation: 0.5s all;
 
         &:hover {
             cursor: pointer;
+            transform: scale(1.2);
         }
     }
 

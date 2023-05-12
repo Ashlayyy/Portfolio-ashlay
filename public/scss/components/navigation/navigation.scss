@@ -9,6 +9,7 @@
     align-items: center;
     gap: 5rem;
     color: map-get(colors.$colors, 'textColor');
+    top: 0;
 
     &__links {
         width: 100%;
@@ -24,6 +25,12 @@
     &__link {
       color: map-get(colors.$colors, 'textColor');
       text-decoration: none;
+      animation: all 2s;
+
+      &:hover {
+        color: map-get(colors.$hover, 'textColor');
+        filter: brightness(125%);
+      }
     }
 
     &__contact {
@@ -58,5 +65,9 @@
       background: map-get(colors.$colors, 'textColor');
       height: 5rem;
       aspect-ratio: 1/1;
+
+      &:hover {
+          cursor: pointer;
+      }
     }
 }

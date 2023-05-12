@@ -18,6 +18,11 @@
         color: white;
         background: none;
         transform: translate(0%, -50%);
-        animation: hintButton 2.5s 5s ease-in-out forwards infinite;
+        animation: hintButton 2.5s 1s ease-in-out forwards infinite;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.1) translate(0%, -50%)!important;
+        }
     }
 }
