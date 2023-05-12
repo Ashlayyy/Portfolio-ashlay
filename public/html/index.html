@@ -11,7 +11,7 @@
 
 <body>
     <main class="home" id="home">
-        <nav class="navigation">
+        <nav class="navigation" id="navigation">
             <figure class="navigation__logo"></figure>
             <ul class="navigation__links">
                 <li class="navigation__item"><a class="navigation__link" href="#home">Home</a></li>
@@ -19,7 +19,7 @@
                 <li class="navigation__item"><a class="navigation__link" href="#projects">Projects</a></li>
                 <li class="navigation__item">
                     <a class="navigation__link" href="#contact">
-                        <button class="navigation__contact">Contact</button>
+                        <button class="navigation__contact" id="navigation__contact">Contact</button>
                     </a>
                 </li>
             </ul>
@@ -39,7 +39,7 @@
                 I hope you find what you need!
             </p>
             <div class="introduction__buttonWrapper">
-                <button class="introduction__button">
+                <button class="introduction__button" id="introduction__button">
                     See my projects?
                 </button>
             </div>
@@ -51,7 +51,9 @@
         </div>
     </main>
     <script src="https://kit.fontawesome.com/43e7afcfc9.js" crossorigin="anonymous"></script>
-    <script src="/js/main.js"></script>
+    <script src="/js/home.js" defer></script>
+    <script src="/js/navigation.js" defer></script>
+    <script src="/js/index.js" defer></script>
 </body>
 
 </html>
