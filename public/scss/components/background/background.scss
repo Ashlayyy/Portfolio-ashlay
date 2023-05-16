@@ -2,9 +2,14 @@
 @use "../../abstracts/animations";
 
 .home {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/images/Background-2.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
+  &__light {
+    filter: invert(85%) sepia(43%) saturate(134%) hue-rotate(125deg) brightness(95%) contrast(102%);
+  }
 }

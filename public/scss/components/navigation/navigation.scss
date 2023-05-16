@@ -10,6 +10,7 @@
     gap: 5rem;
     color: map-get(colors.$colors, 'textColor');
     top: 0;
+    filter: none;
 
     &__links {
         width: 100%;
@@ -20,12 +21,14 @@
         gap: 5rem;
         position: relative;
         font-size: 125%;
+        filter: none;
     }
 
     &__link {
       color: map-get(colors.$colors, 'textColor');
       text-decoration: none;
       animation: all 2s;
+      filter: none;
 
       &:hover {
         color: map-get(colors.$hover, 'textColor');
@@ -48,6 +51,7 @@
         border-radius: 0.2rem;
         text-shadow: 0px 1px 0px map-get(colors.$button, 'shadow');
         background: linear-gradient(map-get(colors.$button, 'secondary'), map-get(colors.$button, 'secondary'));
+        filter: none;
     
         &:hover {
           cursor: pointer;
@@ -65,6 +69,7 @@
       background: map-get(colors.$colors, 'textColor');
       height: 5rem;
       aspect-ratio: 1/1;
+      filter: none;
 
       &:hover {
           cursor: pointer;

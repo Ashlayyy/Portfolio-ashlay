@@ -8,15 +8,18 @@
   align-items: center;
   height: 80vh;
   color: map-get(colors.$colors, 'textColor');
+  filter: none;
 
   &__name {
     font-size: 400%;
     line-height: 1.1rem;
+    filter: none;
   }
 
   &__text {
     width: 55ch;
     font-size: 95%;
+    filter: none;
   }
 
   &__buttonWrapper {
@@ -25,6 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    filter: none;
   }
 
   &__button {
@@ -41,6 +45,7 @@
     border-radius: 1.8rem;
     text-shadow: 0px 1px 0px map-get(colors.$button, 'shadow');
     background: linear-gradient(map-get(colors.$button, 'secondary'), map-get(colors.$button, 'secondary'));
+    filter: none;
 
     &:hover {
       cursor: pointer;

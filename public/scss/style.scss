@@ -3,11 +3,11 @@
 @use './base';
 
 //Components
+@use './components/background/background';
 @use './components/home/home';
 @use './components/introduction/introduction';
 @use './components/settings/settings';
 @use './components/navigation/navigation';
-@use './components/background/background';
 
 //Mediaqueries
 @use './abstracts/mediaqueries';
