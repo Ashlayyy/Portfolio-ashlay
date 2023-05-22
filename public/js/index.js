@@ -6,7 +6,8 @@ class App {
 
     constructor(placeToRender) {
         this.placeToRender = document.getElementsByTagName(placeToRender)[0];
-        this.home = new Home();
+        this.home = new Home().mainElement;
+        //this.api = new Api();
 
         this.render();
     }
