@@ -1,6 +1,7 @@
 #Required
 node_modules
 .env
+.vscode
 
 #Not Finished
 json
