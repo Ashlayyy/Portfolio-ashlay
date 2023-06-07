@@ -1,13 +1,14 @@
+/* eslint-disable no-undef */
 class App {
-    api = undefined;
+    data = undefined;
     home = undefined;
 
     placeToRender = undefined;
 
     constructor(placeToRender) {
         this.placeToRender = document.getElementsByTagName(placeToRender)[0];
-        this.home = new Home().mainElement;
-        //this.api = new Api();
+        this.data = new Data();
+        this.home = new Home(this.data).mainElement;
 
         this.render();
     }
@@ -16,5 +17,4 @@ class App {
         this.placeToRender.appendChild(this.home);
     }
 }
-
-const app = new App('body');
+new App('body');

@@ -10,50 +10,32 @@
 </head>
 
 <body>
-    <!--
-    <main class="home" id="home">
-        <nav class="navigation" id="navigation">
-            <figure class="navigation__logo"></figure>
-            <ul class="navigation__links">
-                <li class="navigation__item"><a class="navigation__link" href="#home">Home</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="#aboutme">About Me</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="#projects">Projects</a></li>
-                <li class="navigation__item">
-                    <a class="navigation__link" href="#contact">
-                        <button class="navigation__contact" id="navigation__contact">Contact</button>
-                    </a>
-                </li>
-            </ul>
-            <div class="settings" data-darkMode="off" id="settings">
-                <i class="fa-regular fa-globe settings__language"></i>
-                <i class="fa-solid fa-moon settings__darkMode" data-darkModeSwitch="off"></i>
-                <i class="fa-regular fa-moon settings__darkMode" data-darkModeSwitch="on"></i>
-            </div>
-        </nav>
-        <section class="introduction">
-            <h2 class="introduction__name">
-                Ashlay
-            </h2>
-            <p class="introduction__text">
-                Hello! This is my portfolio as a software developer. Look through all you want!
-            </p>
-            <div class="introduction__buttonWrapper">
-                <button class="introduction__button" id="introduction__button">
-                    My projects
-                </button>
-            </div>
-        </section>
-        <article class="home__buttonWrapper">
-            <button class="home__hintButton">
-                <i class="fa-regular fa-angles-down fa-4x"></i>
-            </button>
-        </article>
-    </main>
-    -->
+    <!--Load font-awesome-->
     <script src="https://kit.fontawesome.com/43e7afcfc9.js" crossorigin="anonymous"></script>
-    <script src="/js/navigation.js" defer></script>
-    <script src="/js/home.js" defer></script>
-    <script src="/js/index.js" defer></script>
+
+    <!--Load all general Components-->
+    <script src="../js/utils/Api.js"></script>
+    <script src="../js/utils/Data.js"></script>
+
+    <!--Load HomePage Components-->
+    <script src="../js/Components/HomePage/Settings.js"></script>
+    <script src="../js/Components/HomePage/Navigation.js"></script>
+    <script src="../js/Components/HomePage/Introduction.js"></script>
+
+    <!--Load AboutPage Components-->
+
+    <!--Load ProjectsPage Components-->
+
+    <!--Load ContactPage Components-->
+
+    <!--Load all pages into Javascript-->
+    <script src="../js/HomePage.js"></script>
+    <script src="../js/AboutPage.js"></script>
+    <script src="../js/ProjectsPage.js"></script>
+    <script src="../js/ContactPage.js"></script>
+
+    <!--Load website-->
+    <script src="../js/index.js"></script>
 </body>
 
 </html>

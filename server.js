@@ -8,6 +8,7 @@ const morgan = require('morgan');
 require('dotenv').config();
 
 /*Requiring all local packages */
+//eslint-disable-next-line no-unused-vars
 const logger = require('./utilities/logger');
 
 /* Starting app */
