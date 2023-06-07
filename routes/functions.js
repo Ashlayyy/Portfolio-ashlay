@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 const fs = require('fs').promises;
 
 async function readFile(filePath) {
@@ -9,4 +10,16 @@ async function readFile(filePath) {
   }
 }
 
-module.exports = { readFile };
+async function readJson(jsonPath) {
+  let outcome = undefined;
+  try {
+    const data = await fs.readFile(jsonPath).then(async data => {
+      outcome = await JSON.parse(data);
+    });
+    return outcome;
+  } catch (error) {
+    return console.error(`Got an error trying to read the file: ${error.message}`);
+  }
+}
+
+module.exports = { readFile, readJson };
