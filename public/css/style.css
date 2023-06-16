@@ -38,7 +38,12 @@ body {
   background-size: cover;
 }
 .home__light {
-  filter: invert(85%) sepia(43%) saturate(134%) hue-rotate(125deg) brightness(95%) contrast(102%);
+  background: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/Background-2.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: invert(85%) sepia(43%) saturate(134%) hue-rotate(125deg) brightness(100%) contrast(102%);
 }
 
 .home {
@@ -78,6 +83,12 @@ body {
 .introduction__name {
   font-size: 400%;
   line-height: 1.1rem;
+  filter: none;
+}
+.introduction__title {
+  font-size: 170%;
+  line-height: 1.1rem;
+  font-weight: 100;
   filter: none;
 }
 .introduction__text {

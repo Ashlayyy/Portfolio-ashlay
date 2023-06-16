@@ -2,6 +2,7 @@
 class Introduction {
     introductionElement = undefined;
     h2Element = undefined;
+    h3Element = undefined;
     textElement = undefined;
     buttonWrapperElement = undefined;
     buttonElement = undefined;
@@ -20,6 +21,7 @@ class Introduction {
     createElements = () => {
         this.introductionElement = document.createElement('section');
         this.h2Element = document.createElement('h2');
+        this.h3Element = document.createElement('h3');
         this.textElement = document.createElement('p');
         this.buttonWrapperElement = document.createElement('div');
         this.buttonElement = document.createElement('button');
@@ -28,13 +30,15 @@ class Introduction {
     addClasses = () => {
         this.introductionElement.classList = 'introduction';
         this.h2Element.classList = 'introduction__name';
+        this.h3Element.classList = 'introduction__title';
         this.textElement.classList = 'introduction__text';
         this.buttonWrapperElement.classList = 'introduction__buttonWrapper';
         this.buttonElement.classList = 'introduction__button';
     }
     
     addSpecials = () => {
-        this.h2Element.innerText = 'Ashlay - Developer';
+        this.h2Element.innerText = 'Ashlay';
+        this.h3Element.innerText = 'Developer';
         this.textElement.innerText = 'Hello! This is my portfolio as a software developer. Look through all you want!';
         this.buttonElement.id = 'introduction__button';
         this.buttonElement.innerText = 'My projects';
@@ -51,6 +55,7 @@ class Introduction {
 
     render = () => {
         this.introductionElement.appendChild(this.h2Element);
+        this.introductionElement.appendChild(this.h3Element);
         this.introductionElement.appendChild(this.textElement);
         this.introductionElement.appendChild(this.buttonWrapperElement);
         this.buttonWrapperElement.appendChild(this.buttonElement);
