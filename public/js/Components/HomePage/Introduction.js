@@ -7,9 +7,11 @@ class Introduction {
     buttonWrapperElement = undefined;
     buttonElement = undefined;
     data = undefined;
+    homePage = undefined;
 
-    constructor (data) {
+    constructor (data, homePage) {
         this.data = data;
+        this.homePage = homePage;
 
         this.createElements();
         this.addClasses();

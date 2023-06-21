@@ -4,8 +4,10 @@ class Settings {
     languageElement = undefined;
     darkMode_Light = undefined;
     darkMode_Dark = undefined;
+    homePage = undefined;
 
-    constructor() {
+    constructor(homePage) {
+        this.homePage = homePage;
         this.createElements();
         this.addClasses();
         this.addSpecials();
@@ -34,8 +36,8 @@ class Settings {
     }
 
     render = () => {
-        this.settingsElement.appendChild(this.languageElement);
-        this.settingsElement.appendChild(this.darkMode_Light);
-        this.settingsElement.appendChild(this.darkMode_Dark);
+        this.homePage.RenderEngine.render(this.settingsElement, this.languageElement);
+        this.homePage.RenderEngine.render(this.settingsElement, this.darkMode_Light);
+        this.homePage.RenderEngine.render(this.settingsElement, this.darkMode_Dark);
     }
 }

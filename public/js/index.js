@@ -7,14 +7,24 @@ class App {
 
     constructor(placeToRender) {
         this.placeToRender = document.getElementsByTagName(placeToRender)[0];
+        this.RenderEngine = new RenderEngine();
         this.data = new Data();
-        this.home = new Home(this.data).mainElement;
+        this.home = new Home(this.data, this.RenderEngine);
 
         this.render();
     }
 
     render = () => {
-        this.placeToRender.appendChild(this.home);
+        this.placeToRender.appendChild(this.home.mainElement);
     }
 }
-new App('body');
+
+const mainApp = () => {
+    try {
+        new App('body');
+    } catch (error) {
+        location.reload();
+    }
+}
+
+mainApp();

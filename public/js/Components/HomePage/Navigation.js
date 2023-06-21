@@ -12,9 +12,11 @@ class Navigation {
         'Home', 'About Me', 'Projects', 'Contact'
     ];
     data = undefined;
+    homePage = undefined;
 
-    constructor(data) {
+    constructor(data, homePage) {
         this.data = data;
+        this.homePage = homePage;
 
         this.createElements();
         this.generateListItems();
@@ -28,7 +30,7 @@ class Navigation {
         this.figureElement = document.createElement('figure');
         this.navigationListElement = document.createElement('ul');
         this.buttonElement = document.createElement('button');
-        this.settings = new Settings().settingsElement;
+        this.settings = new Settings(this.homePage).settingsElement;
     }
 
     generateListItems = () => {
@@ -44,11 +46,10 @@ class Navigation {
                 this.listItemAElement.innerText = this.names[i];
             } else {
                 this.buttonElement.innerText = this.names[i];
-                this.listItemAElement.appendChild(this.buttonElement);
+                this.homePage.RenderEngine.render(this.listItemAElement, this.buttonElement);
             }
-
-            this.listItemLiElement.appendChild(this.listItemAElement);
-            this.navigationListElement.appendChild(this.listItemLiElement);
+            this.homePage.RenderEngine.render(this.listItemLiElement, this.listItemAElement);
+            this.homePage.RenderEngine.render(this.navigationListElement, this.listItemLiElement);
         }
     }
 
@@ -65,8 +66,8 @@ class Navigation {
     }
 
     render = () => {
-        this.navigationElement.appendChild(this.figureElement);
-        this.navigationElement.appendChild(this.navigationListElement);
-        this.navigationElement.appendChild(this.settings);
+        this.homePage.RenderEngine.render(this.navigationElement, this.figureElement);
+        this.homePage.RenderEngine.render(this.navigationElement, this.navigationListElement);
+        this.homePage.RenderEngine.render(this.navigationElement, this.settings);
     }
 }

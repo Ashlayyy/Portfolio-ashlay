@@ -8,9 +8,11 @@ class Home {
     hintButtonElement = undefined;
     hintIconElement = undefined;
     data = undefined;
+    RenderEngine = undefined;
 
-    constructor (data) {
+    constructor (data, RenderEngine) {
         this.data = data; 
+        this.RenderEngine = RenderEngine;
 
         this.createElements();
         this.addClasses();
@@ -21,8 +23,8 @@ class Home {
 
     createElements = () => {
         this.mainElement = document.createElement('main');
-        this.navigation = new Navigation(this.data).navigationElement;
-        this.introductionElement = new Introduction(this.data).introductionElement;
+        this.navigation = new Navigation(this.data, this).navigationElement;
+        this.introductionElement = new Introduction(this.data, this).introductionElement;
         this.hintButtonWrapElement = document.createElement('article');
         this.hintButtonElement = document.createElement('button');
         this.hintIconElement = document.createElement('i');
@@ -49,10 +51,10 @@ class Home {
     }
 
     render = () => {
-        this.mainElement.appendChild(this.navigation);
-        this.mainElement.appendChild(this.introductionElement);
-        this.mainElement.appendChild(this.hintButtonWrapElement);
-        this.hintButtonWrapElement.appendChild(this.hintButtonElement);
-        this.hintButtonElement.appendChild(this.hintIconElement);
+        this.RenderEngine.render(this.mainElement, this.navigation);
+        this.RenderEngine.render(this.mainElement, this.introductionElement);
+        this.RenderEngine.render(this.mainElement, this.hintButtonWrapElement);
+        this.RenderEngine.render(this.hintButtonWrapElement, this.hintButtonElement);
+        this.RenderEngine.render(this.hintButtonElement, this.hintIconElement);
     }
 }
