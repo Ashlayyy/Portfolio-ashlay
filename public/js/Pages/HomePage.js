@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
-class Home {
+class HomePage {
     navigation = undefined;
     mainElement = undefined;
     introductionElement = undefined;

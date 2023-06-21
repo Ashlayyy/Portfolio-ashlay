@@ -9,7 +9,8 @@ class App {
         this.placeToRender = document.getElementsByTagName(placeToRender)[0];
         this.RenderEngine = new RenderEngine();
         this.data = new Data();
-        this.home = new Home(this.data, this.RenderEngine);
+        this.home = new HomePage(this.data, this.RenderEngine);
+        this.aboutme = new AboutMePage(this.data, this.RenderEngine)
 
         this.render();
     }
