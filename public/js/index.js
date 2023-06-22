@@ -2,7 +2,6 @@
 class App {
     data = undefined;
     home = undefined;
-
     placeToRender = undefined;
 
     constructor(placeToRender) {
@@ -10,13 +9,18 @@ class App {
         this.RenderEngine = new RenderEngine();
         this.data = new Data();
         this.home = new HomePage(this.data, this.RenderEngine);
-        this.aboutme = new AboutMePage(this.data, this.RenderEngine)
+        this.aboutMe = new AboutMePage(this.data, this.RenderEngine)
+        //this.projects = new ProjectsPage(this.data, this.RenderEngine);
+        //this.contact = new ContactPage(this.data, this.RenderEngine);
 
         this.render();
     }
 
     render = () => {
-        this.placeToRender.appendChild(this.home.mainElement);
+        this.RenderEngine.render(this.placeToRender, this.home.mainElement);
+        this.RenderEngine.render(this.placeToRender, this.aboutMe.mainElement);
+        //this.RenderEngine.render(this.placeToRender, this.projects.mainElement);
+        //this.RenderEngine.render(this.placeToRender, this.contact.mainElement);
     }
 }
 
@@ -24,7 +28,8 @@ const mainApp = () => {
     try {
         new App('body');
     } catch (error) {
-        location.reload();
+        console.log(error);
+        //location.reload();
     }
 }
 

@@ -36,7 +36,7 @@ class ScriptTag {
         this.Setup = Setup;
         this.scriptTag = document.createElement('script');
         this.scriptTag.src = this.scriptSrc;
-        if(scriptSrc == '/js/index.js') this.scriptTag.setAttribute('defer', '');
+        //if(scriptSrc == '/js/index.js') this.scriptTag.setAttribute('defer', '');
         this.Setup.RenderEngine.render(this.placeToRender, this.scriptTag);
     }
 }

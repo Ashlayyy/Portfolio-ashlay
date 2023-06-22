@@ -2,6 +2,7 @@
 class AboutMePage {
     RenderEngine = undefined;
     data = undefined;
+    mainElement = undefined;
     
     constructor (data, RenderEngine) {
         this.data = data;
@@ -14,7 +15,7 @@ class AboutMePage {
     }
 
     createElements = () => {
-
+        this.mainElement = document.createElement('section');
     }
 
     addClasses = () => {
@@ -23,5 +24,9 @@ class AboutMePage {
     
     addSpecials = () => {
 
+    }
+
+    render = () => {
+        
     }
 }
