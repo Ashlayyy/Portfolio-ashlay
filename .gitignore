@@ -9,3 +9,7 @@ public/backup
 
 #Not Implemented
 logs
+
+#Not used anymore
+json/Setup/setup.json
+public/js/Setup
