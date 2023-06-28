@@ -19,11 +19,11 @@ class AboutMePage {
     }
 
     addClasses = () => {
-
+        this.mainElement.classList = 'aboutMe';
     }
     
     addSpecials = () => {
-
+        this.mainElement.id = 'AboutMe';
     }
 
     render = () => {

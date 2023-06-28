@@ -40,7 +40,11 @@ class Navigation {
 
             this.listItemAElement = document.createElement('a');
             this.listItemAElement.classList = 'navigation__link';
-            this.listItemAElement.href = `#${this.names[i]}`;
+            if(this.names[i] == 'About Me') {
+                this.listItemAElement.href = `#AboutMe`;
+            } else {
+                this.listItemAElement.href = `#${this.names[i]}`;
+            }
 
             if (i < 3) {
                 this.listItemAElement.innerText = this.names[i];

@@ -22,7 +22,7 @@ class HomePage {
     }
 
     createElements = () => {
-        this.mainElement = document.createElement('main');
+        this.mainElement = document.createElement('section');
         this.navigation = new Navigation(this.data, this).navigationElement;
         this.introductionElement = new Introduction(this.data, this).introductionElement;
         this.hintButtonWrapElement = document.createElement('article');
