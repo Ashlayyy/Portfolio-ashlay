@@ -1,17 +1,23 @@
-//Base and reset
+/*Base and reset*/
 @use './abstracts/reset';
 @use './base';
 
-//Components
-@use './components/background/background';
-@use './components/home/home';
-@use './components/introduction/introduction';
-@use './components/settings/settings';
-@use './components/navigation/navigation';
-@use './components/aboutPage/about';
-@use './components/avatar/avatar';
-@use './components/human/human';
-@use './components/skills/skills';
+/*Components*/
+//HomePage
+@use './components/Components/HomePage/background/background';
+@use './components/Components/HomePage/introduction/introduction';
+@use './components/Components/HomePage/navigation/navigation';
+@use './components/Components/HomePage/settings/settings';
 
-//Mediaqueries
+//AboutPage
+@use './components/Components/AboutPage/avatar/avatar';
+@use './components/Components/AboutPage/human/human';
+@use './components/Components/AboutPage/skills/skills';
+
+
+/*Pages*/
+@use './components/Pages/home/home';
+@use './components/Pages/aboutPage/about';
+
+/*Mediaqueries*/
 @use './abstracts/mediaqueries';
