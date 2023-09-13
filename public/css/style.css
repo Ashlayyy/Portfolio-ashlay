@@ -238,4 +238,93 @@ body {
   cursor: pointer;
 }
 
+.aboutMe {
+  background: gray;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 5rem;
+}
+.aboutMe_sideElement {
+  width: 50%;
+  border: 0.1rem solid red;
+}
+.aboutMe_secondSideElement {
+  width: 50%;
+  border: 0.1rem solid green;
+}
+
+.avatar_container {
+  text-align: center;
+}
+.avatar_figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  padding-bottom: 2.5rem;
+}
+.avatar_image {
+  height: 17.5rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+.avatar_text {
+  color: #e9ffff;
+  padding: 5rem;
+  padding-top: 2.5rem;
+}
+
+.skillBars_container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 5rem;
+}
+
+.skillBar_container {
+  margin: 1rem;
+  width: 100%;
+  background: #ddd;
+  border-radius: 1rem;
+}
+.skillBar_bar {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.skillBar_container #HTML {
+  background: red;
+  width: 95%;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.skillBar_container #Javascript {
+  background: red;
+  width: 80%;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.skillBar_container #SCSS {
+  background: red;
+  width: 70%;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.skillBar_container #NodeJs {
+  background: red;
+  width: 65%;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+@use "../../abstracts/colors";
+
+.aboutMe {
+    background: gray;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 5rem;
+
+    &_sideElement {
+        width: 50%;
+        border: 0.1rem solid red;
+    }
+
+    &_secondSideElement {
+        width: 50%;
+        border: 0.1rem solid green;
+    }
+}

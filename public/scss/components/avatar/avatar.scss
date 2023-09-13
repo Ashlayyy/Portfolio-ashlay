@@ -1,0 +1,28 @@
+@use "../../abstracts/colors";
+
+.avatar {
+    &_container {
+        text-align: center;
+    }
+
+    &_figure {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    &_image {
+        height: 17.5rem;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+    }
+    
+    &_text {
+        color: map-get(colors.$colors, 'textColor');
+        padding: 5rem;
+        padding-top: 2.5rem;
+    }
+}

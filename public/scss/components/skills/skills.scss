@@ -1,0 +1,57 @@
+@use "../../abstracts/colors";
+
+.skillBars {
+    &_container {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        padding: 5rem;
+    }
+}
+
+.skillBar {
+    &_container {
+        margin: 1rem;
+        width: 100%;
+        background: #ddd;
+        border-radius: 1rem;
+    }
+
+    &_bar {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    &_container #HTML {
+        background: red;
+        width: 95%;
+        padding: 1rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    &_container #Javascript {
+        background: red;
+        width: 80%;
+        padding: 1rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    &_container #SCSS {
+        background: red;
+        width: 70%;
+        padding: 1rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    &_container #NodeJs {
+        background: red;
+        width: 65%;
+        padding: 1rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+}

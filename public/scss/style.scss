@@ -8,6 +8,10 @@
 @use './components/introduction/introduction';
 @use './components/settings/settings';
 @use './components/navigation/navigation';
+@use './components/aboutPage/about';
+@use './components/avatar/avatar';
+@use './components/human/human';
+@use './components/skills/skills';
 
 //Mediaqueries
 @use './abstracts/mediaqueries';
