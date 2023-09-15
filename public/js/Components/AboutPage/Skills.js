@@ -1,10 +1,9 @@
+/* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 class SkillsBars {
     data = undefined;
     aboutPage = undefined;
     containerElement = undefined;
-    dataSkills = ['HTML', 'Javascript', 'SCSS', 'NodeJs'];
-    dataPercent = ['95%', '80%', '70%', '65%'];
 
     constructor (data, aboutPage) {
         this.data = data;
@@ -17,8 +16,8 @@ class SkillsBars {
     createElements = () => {
         this.containerElement = document.createElement('section');
 
-        for (let i = 0; i < this.dataSkills.length; i++) {
-            this.aboutPage.RenderEngine.render(this.containerElement, (new SkillBar(this.dataSkills[i], this.aboutPage, this.dataPercent[i]).containerElement));
+        for (let i = 0; i < this.data.Experience.Languages.length; i++) {
+            this.aboutPage.RenderEngine.render(this.containerElement, (new SkillBar(this.aboutPage, this.data.Experience.Languages[i]).containerElement));
         }
     }
 
@@ -30,14 +29,12 @@ class SkillsBars {
 class SkillBar {
     containerElement = undefined;
     barElement = undefined;
-    id = undefined;
     aboutPage = undefined;
-    percent = undefined;
+    data = undefined;
 
-    constructor (id, aboutPage, percent) {
-        this.id = id;
+    constructor (aboutPage, data) {
         this.aboutPage = aboutPage
-        this.percent = percent;
+        this.data = data;
 
         this.createElements();
         this.addClasses();
@@ -47,27 +44,25 @@ class SkillBar {
 
     createElements = () => {
         this.containerElement = document.createElement('div');
+        this.textElement = document.createElement('p');
         this.barElement = document.createElement('div');
         this.barTextElement = document.createElement('p');
-        this.barPercentElement = document.createElement('p');
     }
 
     addClasses = () => {
         this.containerElement.classList = 'skillBar_container';
+        this.textElement.classList = 'skillBar_language';
         this.barElement.classList = 'skillBar_bar';
         this.barTextElement.classList = 'skillBar_tekst';
-        this.barPercentElement.classList = 'skillBar_percent';
     }
     
     addSpecials = () => {
-        this.barElement.id = this.id;
-        this.barTextElement.innerText = this.id;
-        this.barPercentElement.innerText = this.percent;
+        this.barTextElement.innerText = new DataCalc(this.data.dateBegon, new Date()).result;
     }
 
     render = () => {
+        this.aboutPage.RenderEngine.render(this.containerElement, this.textElement);
         this.aboutPage.RenderEngine.render(this.containerElement, this.barElement);
         this.aboutPage.RenderEngine.render(this.barElement, this.barTextElement);
-        this.aboutPage.RenderEngine.render(this.barElement, this.barPercentElement);
     }
 }

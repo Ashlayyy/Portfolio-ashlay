@@ -283,6 +283,30 @@ body {
   border-bottom-left-radius: 1rem;
 }
 
+.experienceCard_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border: 0.1rem solid black;
+}
+.experienceCard_wrapper {
+  padding: 0.5rem;
+  border: 0.1rem solid blue;
+}
+.experienceCard_icon {
+  height: 15rem;
+  aspect-ratio: 1/1;
+}
+.experienceCard_bar {
+  text-align: center;
+  border: 0.1rem solid orange;
+  border-radius: 1rem;
+  width: 80%;
+}
 .home {
   width: 100%;
   height: 100vh;
@@ -309,14 +333,22 @@ body {
 
 .aboutMe {
   background: gray;
-  height: 100vh;
+  height: 200vh;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 3rem;
   padding: 5rem;
+}
+.aboutMe_divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  border: 0.1rem solid purple;
 }
 .aboutMe_sideElement {
   width: 50%;

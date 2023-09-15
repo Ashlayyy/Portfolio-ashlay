@@ -5,26 +5,29 @@ class App {
     aboutMe = undefined;
     placeToRender = undefined;
     smoothScrolling = undefined;
+    finalData = undefined;
 
     constructor(placeToRender) {
         this.placeToRender = document.getElementsByTagName(placeToRender)[0];
         this.RenderEngine = new RenderEngine();
         this.data = new Data();
-        this.smoothScrolling = new SmoothScrolling();
-        this.home = new HomePage(this.data, this.RenderEngine);
-        this.aboutMe = new AboutMePage(this.data, this.RenderEngine)
-        this.projects = new ProjectsPage(this.data, this.RenderEngine);
-        this.contact = new ContactPage(this.data, this.RenderEngine);
+        (async () => {
+            this.finalData = await Promise.resolve(this.data.data)
+            this.home = new HomePage(this.finalData, this.RenderEngine);
+            this.aboutMe = new AboutMePage(this.finalData, this.RenderEngine)
+            //this.projects = new ProjectsPage(this.finalData, this.RenderEngine);
+            this.contact = new ContactPage(this.finalData, this.RenderEngine);
 
-        document.querySelectorAll('body')[0].scrollIntoView({behavior: 'instant'})
-
-        this.render();
+            this.smoothScrolling = new SmoothScrolling();
+            document.querySelectorAll('body')[0].scrollIntoView({behavior: 'instant'})
+            await this.render();
+        })()
     }
 
-    render = () => {
+    render = async () => {
         this.RenderEngine.render(this.placeToRender, this.home.mainElement);
         this.RenderEngine.render(this.placeToRender, this.aboutMe.mainElement);
-        this.RenderEngine.render(this.placeToRender, this.projects.mainElement);
+        //this.RenderEngine.render(this.placeToRender, this.projects.mainElement);
         this.RenderEngine.render(this.placeToRender, this.contact.mainElement);
     }
 }
@@ -34,7 +37,6 @@ const mainApp = () => {
         new App('body');
     } catch (error) {
         console.log(error);
-        //location.reload();
     }
 }
 
