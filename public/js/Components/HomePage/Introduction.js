@@ -48,7 +48,7 @@ class Introduction {
 
     addClickListeners = () => {
         this.buttonElement.addEventListener('click', () => {
-            const element = document.getElementById('projects');
+            const element = document.getElementById('Projects');
             if(element == null || element == undefined || element == '') {
                 return
             } else element.scrollIntoView({behavior: 'smooth'}, false);

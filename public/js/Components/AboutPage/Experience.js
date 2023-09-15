@@ -68,7 +68,6 @@ class ExperienceCard {
     addSpecials = () => {
         this.iconElement.src = this.data.iconUrl;
         this.textElement.innerText = new DataCalc(this.data.dateBegon, new Date()).result;
-        console.log(this.textElement.innerText)
     }
 
     render = () => {

@@ -6,7 +6,6 @@ class DataCalc {
 
     constructor (dateBegon, dateNow) {
         dateBegon = new Date(dateBegon);
-        console.log(dateBegon, dateNow)
         const monthDiff = dateNow.getMonth() - dateBegon.getMonth();
         const yearDiff = dateNow.getYear() - dateBegon.getYear();
         this.months = monthDiff + yearDiff * 12;

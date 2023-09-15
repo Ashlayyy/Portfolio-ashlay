@@ -1,78 +1,95 @@
 @use "../../../../abstracts/colors";
 
 .navigation {
-    display: flex;
+  background: rgba($color: #000000, $alpha: 0.25);
+  display: flex;
+  position: -webkit-sticky;
+	position: sticky;
+  width: 100%;
+  height: min-content;
+  padding: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  color: map-get(colors.$colors, "textColor");
+  top: 0;
+  filter: none;
+  z-index: 9999;
+  max-height: 7.5rem;
+
+  &__links {
     width: 100%;
-    height: min-content;
-    padding: 2rem;
-    justify-content: space-between;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    list-style: none;
     gap: 5rem;
-    color: map-get(colors.$colors, 'textColor');
-    top: 0;
+    position: relative;
+    font-size: 125%;
+    filter: none;
+  }
+
+  &__link {
+    color: map-get(colors.$colors, "textColor");
+    text-decoration: none;
+    animation: all 2s;
     filter: none;
 
-    &__links {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        list-style: none;
-        gap: 5rem;
-        position: relative;
-        font-size: 125%;
-        filter: none;
+    &:hover {
+      color: map-get(colors.$hover, "textColor");
+      filter: brightness(125%);
+    }
+  }
+
+  &__contact {
+    margin-top: -1.5rem;
+    position: absolute;
+    animation: 0.3s all;
+    font-size: 1.2rem;
+    font-family: Arial;
+    width: 12rem;
+    height: 3rem;
+    border-width: 0.1rem;
+    color: map-get(colors.$colors, "textColor");
+    border-color: map-get(colors.$button, "secondary");
+    font-weight: bold;
+    border-radius: 0.2rem;
+    text-shadow: 0px 1px 0px map-get(colors.$button, "shadow");
+    background: linear-gradient(
+      map-get(colors.$button, "secondary"),
+      map-get(colors.$button, "secondary")
+    );
+    filter: none;
+
+    &:hover {
+      cursor: pointer;
+      background: linear-gradient(
+        map-get(colors.$button, "secondary"),
+        darken(map-get(colors.$button, "primary"), 20%)
+      );
     }
 
-    &__link {
-      color: map-get(colors.$colors, 'textColor');
-      text-decoration: none;
-      animation: all 2s;
-      filter: none;
-
-      &:hover {
-        color: map-get(colors.$hover, 'textColor');
-        filter: brightness(125%);
-      }
+    &:active {
+      margin-left: 0.2rem;
+      margin-top: -1.3rem;
+      border: none;
     }
+  }
 
-    &__contact {
-        margin-top: -1.5rem;
-        position: absolute;
-        animation: 0.3s all;
-        font-size: 1.2rem;
-        font-family: Arial;
-        width: 12rem;
-        height: 3rem;
-        border-width: 0.1rem;
-        color: map-get(colors.$colors, 'textColor');
-        border-color: map-get(colors.$button, 'secondary');
-        font-weight: bold;
-        border-radius: 0.2rem;
-        text-shadow: 0px 1px 0px map-get(colors.$button, 'shadow');
-        background: linear-gradient(map-get(colors.$button, 'secondary'), map-get(colors.$button, 'secondary'));
-        filter: none;
-    
-        &:hover {
-          cursor: pointer;
-          background: linear-gradient(map-get(colors.$button, 'secondary'), darken(map-get(colors.$button, 'primary'), 20%));
-        }
-    
-        &:active {
-          margin-left: 0.2rem;
-          margin-top: -1.3rem;
-          border: none;
-        }
+  &__logo {
+    background: map-get(colors.$colors, "textColor");
+    height: 5rem;
+    aspect-ratio: 1/1;
+    filter: none;
+
+    &:hover {
+      cursor: pointer;
     }
+  }
 
-    &__logo {
-      background: map-get(colors.$colors, 'textColor');
-      height: 5rem;
-      aspect-ratio: 1/1;
-      filter: none;
-
-      &:hover {
-          cursor: pointer;
-      }
-    }
+  &_sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 }

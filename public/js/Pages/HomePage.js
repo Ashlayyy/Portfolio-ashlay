@@ -38,7 +38,7 @@ class HomePage {
     }
     
     addSpecials = () => {
-        this.mainElement.id = 'home';
+        this.mainElement.id = 'Home';
     }
 
     addClickListeners = () => {
@@ -51,7 +51,7 @@ class HomePage {
     }
 
     render = () => {
-        this.RenderEngine.render(this.mainElement, this.navigation);
+        //this.RenderEngine.render(this.mainElement, this.navigation);
         this.RenderEngine.render(this.mainElement, this.introductionElement);
         this.RenderEngine.render(this.mainElement, this.hintButtonWrapElement);
         this.RenderEngine.render(this.hintButtonWrapElement, this.hintButtonElement);

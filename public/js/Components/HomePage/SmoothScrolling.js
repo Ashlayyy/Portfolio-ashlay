@@ -4,7 +4,8 @@ class SmoothScrolling {
         document.addEventListener('DOMContentLoaded', () => {
             const selector = document.querySelectorAll('a[href^="#"]');
             selector.forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
+                console.log(anchor);
+                anchor.addEventListener('click', (e) => {
                     e.preventDefault();
 
                     const element = document.querySelector(this.getAttribute('href'))

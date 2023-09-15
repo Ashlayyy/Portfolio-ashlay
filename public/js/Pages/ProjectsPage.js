@@ -18,8 +18,8 @@ class ProjectsPage {
     createElements = () => {
         this.mainElement = document.createElement('section');
 
-        for(let i = 0; i <= this.amountOfCards; i++) {
-            this.RenderEngine.render(this.mainElement, new ProjectCard(this.data[i].id, this.data[i].name, this.data[i]));
+        for(let i = 0; i < this.data.Projects.length; i++) {
+            this.RenderEngine.render(this.mainElement, new ProjectCard(this.data.Projects[i], this.data.Projects).cardMainElement);
         }
     }
 
@@ -37,14 +37,12 @@ class ProjectsPage {
 }
 
 class ProjectCard {
-    id = undefined;
-    name = undefined;
     data = undefined;
+    totalData = undefined;
 
-    constructor (id, name, data) {
-        this.id = id;
-        this.name = name;
+    constructor (data, totalData, i) {
         this.data = data;
+        this.totalData = totalData;
 
         this.createElements();
         this.addClasses();
@@ -72,8 +70,8 @@ class ProjectCard {
     }
     
     addSpecials = () => {
-        this.cardMainElement.id = this.id;
-        this.cardNameText.innerText = this.name;
+        this.cardMainElement.id = this.data.id;
+        this.cardNameText.innerText = this.data.name;
         this.cardImage.src = this.data.imgUrl;
         this.cardText.innerText = this.data.shortProjectText;
     }
@@ -81,7 +79,7 @@ class ProjectCard {
     addEventListeners = () => {
         this.cardGithHubButton.addEventListener('click', () => {
             for(let i = 0; i < this.data.length; i++) {
-                if (this.data[i].id == this.id) location.href = this.data[i].liveUrl;
+                if (this.totalData.Projects[i].id == this.id) location.href = this.data.Projects[i].liveUrl;
             }
         })
 

@@ -11,14 +11,16 @@
 
 //AboutPage
 @use './components/Components/AboutPage/avatar/avatar';
-@use './components/Components/AboutPage/human/human';
 @use './components/Components/AboutPage/skills/skills';
 @use './components/Components/AboutPage/Experience/card';
 
+//ProjectPage
+@use './components/Components/ProjectPage/General/ProjectCard/ProjectCard';
 
 /*Pages*/
 @use './components/Pages/home/home';
 @use './components/Pages/aboutPage/about';
+@use './components/Pages/projectPage/projectPage';
 
 /*Mediaqueries*/
 @use './abstracts/mediaqueries';
