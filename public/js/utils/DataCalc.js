@@ -15,8 +15,10 @@ class DataCalc {
             this.months = this.months - 12;
         }
 
-        if (this.years > 0) {
-            this.result = `${this.years} years`;
+        if (this.years === 1) {
+            this.result = `${this.years} Year`;
+        } else if (this.years > 1) {
+            this.result = `${this.years} Years`;
         } else this.result = `${this.months} months`;
         return this.result;
     }

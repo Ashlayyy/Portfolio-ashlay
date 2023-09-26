@@ -4,7 +4,6 @@ class App {
     home = undefined;
     aboutMe = undefined;
     placeToRender = undefined;
-    //smoothScrolling = undefined;
     finalData = undefined;
 
     constructor(placeToRender) {
@@ -17,9 +16,6 @@ class App {
             this.aboutMe = new AboutMePage(this.finalData, this.RenderEngine)
             this.projects = new ProjectsPage(this.finalData, this.RenderEngine);
             this.contact = new ContactPage(this.finalData, this.RenderEngine);
-
-            //this.smoothScrolling = new SmoothScrolling();
-            //document.querySelectorAll('body')[0].scrollIntoView({behavior: 'instant'})
             await this.render();
         })()
     }

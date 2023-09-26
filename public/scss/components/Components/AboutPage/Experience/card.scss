@@ -2,7 +2,13 @@
 
 .Experience {
     &_container {
-
+        width: 100%;
+        display: flex;
+        gap: 5rem;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 
@@ -12,30 +18,47 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        flex-direction: column;
+        flex-direction: row;
         gap: 1rem;
         padding: 1rem;
-        border: 0.1rem solid black;
+        min-width: 40%;
+        max-width: 40rem;
+        min-height: 20rem;
+    }
+
+    &_wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        gap: 2rem;
     }
 
     &_wrapper {
+        width: 100%;
         padding: 0.5rem;
-        border: 0.1rem solid blue;
     }
 
     &_icon {
-        height: 15rem;
-        aspect-ratio: 1/1;
+        width: 10rem;
+        height: auto;
     }
 
     &_bar {
         text-align: center;
-        border: 0.1rem solid orange;
-        border-radius: 1rem;
-        width: 80%;
+        background: #16697A;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        width: 100%;
     }
 
     &_text {
+        color: white;
+    }
 
+    &_languageText {
+        color: white;;
     }
 }
