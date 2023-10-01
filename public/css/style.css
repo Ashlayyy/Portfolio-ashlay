@@ -171,13 +171,16 @@ body {
   border: none;
 }
 .navigation__logo {
-  background: #e9ffff;
   height: 5rem;
   aspect-ratio: 1/1;
   filter: none;
 }
 .navigation__logo:hover {
   cursor: pointer;
+}
+.navigation_img {
+  height: 100%;
+  filter: invert(100%);
 }
 .navigation_sticky {
   position: fixed;

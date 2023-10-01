@@ -77,7 +77,7 @@
   }
 
   &__logo {
-    background: map-get(colors.$colors, "textColor");
+    //background: map-get(colors.$colors, "textColor");
     height: 5rem;
     aspect-ratio: 1/1;
     filter: none;
@@ -85,6 +85,11 @@
     &:hover {
       cursor: pointer;
     }
+  }
+
+  &_img {
+    height: 100%;
+    filter: invert(100%);
   }
 
   &_sticky {

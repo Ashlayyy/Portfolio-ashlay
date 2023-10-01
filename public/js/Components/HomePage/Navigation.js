@@ -28,6 +28,7 @@ class Navigation {
     createElements = () => {
         this.navigationElement = document.createElement('nav');
         this.figureElement = document.createElement('figure');
+        this.imgElement = document.createElement('img');
         this.navigationListElement = document.createElement('ul');
         this.buttonElement = document.createElement('button');
         this.settings = new Settings(this.homePage).settingsElement;
@@ -62,15 +63,18 @@ class Navigation {
         this.figureElement.classList = 'navigation__logo';
         this.navigationListElement.classList = 'navigation__links';
         this.buttonElement.classList = 'navigation__contact';
+        this.imgElement.classList = 'navigation_img';
     }
 
     addSpecials = () => {
-        this.navigationElement.id = 'navigation'
+        this.navigationElement.id = 'navigation';
+        this.imgElement.src = '/images/Logo-Ash.webp';
         this.buttonElement.id = 'navigation__contact';
     }
 
     render = () => {
         this.homePage.RenderEngine.render(this.navigationElement, this.figureElement);
+        this.homePage.RenderEngine.render(this.figureElement, this.imgElement);
         this.homePage.RenderEngine.render(this.navigationElement, this.navigationListElement);
         this.homePage.RenderEngine.render(this.navigationElement, this.settings);
     }
