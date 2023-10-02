@@ -1,10 +1,10 @@
 #Required
 node_modules
-.env
+#.env
 .vscode
 
 #Not Finished
-json
+#json
 public/backup
 
 #Not Implemented

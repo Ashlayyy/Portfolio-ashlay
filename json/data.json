@@ -1,0 +1,150 @@
+{
+    "Translating": {
+        "Dutch": {
+            "TextAboutMe": "Ik ben Ashlay, een gedreven software-ontwikkelaar met een passie voor nette code en probleemoplossingen. Mijn expertise omvat onder andere NodeJS, Javascript en VueJs. Ook heb ik ervaring in de talen die hieronder staan beschreven. Neem gerust contact op als je vragen heb of als je gewoon wilt praten! Je kan me altijd een mail sturen.",
+            "ProjectTitle": "Projects"
+        },
+        "English": {
+
+        }
+    },
+
+    "Projects": [{
+        "id": "1",
+        "name": "Portfolio Iris Meijer",
+        "imgUrl": "/images/Project/Projectt-1.jpg",
+        "liveUrl": "https://icmphotography.nl",
+        "logoUrl": "/images/Project/Projectt-1.jpg",
+        "githubUrl": "https://github.com/Ashlayyy/Portfolio-Iris",
+        "dateBegon": "2021-05-05",
+        "dateEnded": "2020-05-05",
+        "shortProjectTextDutch": "Dit is het portfolio van mijn vriendin, de website is gemaakt met Object georienteerd Javascript.",
+        "shortProjectTextEnglish": "",
+        "longProjectTextDutch": "",
+        "longProjectTextEnglish": ""
+    },
+    {
+        "id": "2",
+        "name": "Portfolio Ashlay Steur",
+        "imgUrl": "/images/Project/no-icon.png",
+        "liveUrl": "",
+        "logoUrl": "/images/Project/no-icon.png",
+        "githubUrl": "https://github.com/Ashlayyy/Portfolio-ashlay",
+        "dateBegon": "2021-05-05",
+        "dateEnded": "2020-05-05",
+        "shortProjectTextDutch": "Dit is vanzelf sprekend natuurlijk mijn portfolio, volledig gemaakt in Object georienteerd Javascript.",
+        "shortProjectTextEnglish": "",
+        "longProjectTextDutch": "",
+        "longProjectTextEnglish": ""
+    }, 
+    {
+        "id": "3",
+        "name": "YubTub",
+        "imgUrl": "/images/Project/no-icon.png",
+        "liveUrl": "",
+        "logoUrl": "/images/Project/no-icon.png",
+        "githubUrl": "https://github.com/Ashlayyy/YubTub",
+        "dateBegon": "2021-05-05",
+        "dateEnded": "2020-05-05",
+        "shortProjectTextDutch": "Dit heb ik gemaakt op school, de opdracht was om in OOP Javascript het uiterlijk van Youtube na te bouwen op je eigen manier.",
+        "shortProjectTextEnglish": "",
+        "longProjectTextDutch": "",
+        "longProjectTextEnglish": ""
+    },
+    {
+        "id": "4",
+        "name": "Encrypter",
+        "imgUrl": "/images/Project/no-icon.png",
+        "liveUrl": "",
+        "logoUrl": "/images/Project/no-icon.png",
+        "githubUrl": "https://github.com/Ashlayyy/Encrypter",
+        "dateBegon": "2021-05-05",
+        "dateEnded": "2020-05-05",
+        "shortProjectTextDutch": "Dit project heb ik ook gemaakt op school, de opdracht was om een app te bouwen waarmee je text kon encrypten en kon decrypten.",
+        "shortProjectTextEnglish": "",
+        "longProjectTextDutch": "",
+        "longProjectTextEnglish": ""
+    },
+    {
+        "id": "5",
+        "name": "Agenda",
+        "imgUrl": "/images/Project/no-icon.png",
+        "liveUrl": "",
+        "logoUrl": "/images/Project/no-icon.png",
+        "githubUrl": "https://github.com/Ashlayyy/Agenda-App",
+        "dateBegon": "2021-05-05",
+        "dateEnded": "2020-05-05",
+        "shortProjectTextDutch": "De opdracht voor dit project was om een kleine agenda app te bouwen waar je de maanden kon zien met de juiste dagen.",
+        "shortProjectTextEnglish": "",
+        "longProjectTextDutch": "",
+        "longProjectTextEnglish": ""
+    },
+    {
+        "id": "6",
+        "name": "CollectionOfHappiness",
+        "imgUrl": "/images/Project/no-icon.png",
+        "liveUrl": "",
+        "logoUrl": "/images/Project/no-icon.png",
+        "githubUrl": "https://github.com/Ashlayyy/CollectionOfHappiness",
+        "dateBegon": "2021-05-05",
+        "dateEnded": "2020-05-05",
+        "shortProjectTextDutch": "",
+        "shortProjectTextEnglish": "",
+        "longProjectTextDutch": "",
+        "longProjectTextEnglish": ""
+    }],
+
+    "UpComingProjects": [{
+        "id": "7",
+        "name": "",
+        "imgUrl": "/images/Project/no-icon.png",
+        "liveUrl": "",
+        "logoUrl": "/images/Project/no-icon.png",
+        "githubUrl": "",
+        "dateBegon": "2021-05-05",
+        "shortProjectTextDutch": "",
+        "shortProjectTextEnglish": "",
+        "longProjectTextDutch": "",
+        "longProjectTextEnglish": ""
+    }],
+
+    "Experience": {
+        "CodingLanguages": [{
+            "Language": "HTML",
+            "dateBegon": "2019-08-05",
+            "iconUrl": "https://cdn-icons-png.flaticon.com/512/732/732212.png"
+        }, {
+            "Language": "CSS",
+            "dateBegon": "2019-08-05",
+            "iconUrl": "https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png"
+        }, {
+            "Language": "Javascript",
+            "dateBegon": "2020-08-05",
+            "iconUrl": "https://assets.stickpng.com/images/613b64fe30e8530004ba3a03.png"
+        }, {
+            "Language": "NodeJS",
+            "dateBegon": "2020-08-05",
+            "iconUrl": "https://cdn.freebiesupply.com/logos/large/2x/nodejs-icon-logo-png-transparent.png"
+        },{
+            "Language": "PHP",
+            "dateBegon": "2021-08-05",
+            "iconUrl": "https://assets.stickpng.com/images/58481791cef1014c0b5e4994.png"
+        }, {
+            "Language": "SCSS",
+            "dateBegon": "2022-08-05",
+            "iconUrl": "https://cdn.freebiesupply.com/logos/large/2x/sass-1-logo-png-transparent.png"
+        }, {
+            "Language": "VueJS",
+            "dateBegon": "2022-08-05",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/640px-Vue.js_Logo_2.svg.png"
+        }, {
+            "Language": "GIT",
+            "dateBegon": "2022-08-17",
+            "iconUrl": "https://git-scm.com/images/logos/downloads/Git-Icon-Black.png"
+        }, {
+            "Language": "React",
+            "dateBegon": "2023-02-01",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+        }]
+    }
+}
