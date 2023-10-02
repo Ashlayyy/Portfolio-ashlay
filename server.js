@@ -39,16 +39,16 @@ app.use(morgan('dev'));
 
 
 /* Setting routes */
-app.use('/css', express.static('public/css'));
-app.use('/js', express.static('public/js'));
-app.use('/html', express.static('public/html'));
-app.use('/images', express.static('public/images'));
-app.use('/json', express.static('json'));
-app.use('/CustomComponents', express.static('public/components'));
+app.use('/css', express.static('./public/css'));
+app.use('/js', express.static('./public/js'));
+app.use('/html', express.static('./public/html'));
+app.use('/images', express.static('./public/images'));
+app.use('/json', express.static('./json'));
+app.use('/CustomComponents', express.static('./public/components'));
 
-app.use('/', require('routes/index'));
+app.use('/', require('./routes/index'));
 
-app.use(favicon(__dirname + 'public/images/favicon.ico'));
+app.use(favicon(__dirname + './public/images/favicon.ico'));
 
 /* Starting app on port specified above */
 app.listen(port, () => {
