@@ -12,9 +12,9 @@
     "Projects": [{
         "id": "1",
         "name": "Portfolio Iris Meijer",
-        "imgUrl": "/images/Project/Projectt-1.jpg",
+        "imgUrl": "/images/Project/Portfolio_Iris.jpg",
         "liveUrl": "https://icmphotography.nl",
-        "logoUrl": "/images/Project/Projectt-1.jpg",
+        "logoUrl": "/images/Project/Portfolio_Iris.jpg",
         "githubUrl": "https://github.com/Ashlayyy/Portfolio-Iris",
         "dateBegon": "2021-05-05",
         "dateEnded": "2020-05-05",

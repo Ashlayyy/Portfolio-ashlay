@@ -4,7 +4,7 @@
 .home {
   background: black;
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(/*"/images/Background-2.jpeg"*/"/images/trying.png");
+    url("/images/Background/background.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,7 +12,7 @@
   &__light {
     background: black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url("/images/Background-2.jpeg");
+      url("/images/Background/background.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,6 +1,6 @@
 #Required
 node_modules
-#.env
+.env.local
 .vscode
 
 #Not Finished

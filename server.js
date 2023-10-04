@@ -20,17 +20,17 @@ app.use(compression());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(bodyParser.raw());
-//app.use(helmet.contentSecurityPolicy());
-//app.use(helmet.crossOriginEmbedderPolicy());
-//app.use(helmet.crossOriginOpenerPolicy());
-//app.use(helmet.crossOriginResourcePolicy());
+app.use(helmet.contentSecurityPolicy());
+app.use(helmet.crossOriginEmbedderPolicy());
+app.use(helmet.crossOriginOpenerPolicy());
+app.use(helmet.crossOriginResourcePolicy());
 app.use(helmet.dnsPrefetchControl());
 app.use(helmet.expectCt());
 app.use(helmet.frameguard());
 app.use(helmet.hidePoweredBy());
 app.use(helmet.hsts());
 app.use(helmet.ieNoOpen());
-//app.use(helmet.noSniff());
+app.use(helmet.noSniff());
 app.use(helmet.originAgentCluster());
 app.use(helmet.permittedCrossDomainPolicies());
 app.use(helmet.referrerPolicy());
@@ -48,7 +48,7 @@ app.use('/CustomComponents', express.static('./public/components'));
 
 app.use('/', require('./routes/index'));
 
-app.use(favicon(__dirname + '/public/images/favicon.ico'));
+app.use(favicon(__dirname + 'public/images/favicon.ico'));
 
 /* Starting app on port specified above */
 app.listen(port, () => {
