@@ -39,7 +39,7 @@ class Introduction {
     }
     
     addSpecials = () => {
-        this.h2Element.innerText = 'Ashlayy';
+        this.h2Element.innerText = 'Ashlayyyy';
         this.h3Element.innerText = 'Developer';
         this.textElement.innerText = 'Hello! This is my portfolio as a software developer. Look through all you want!';
         this.buttonElement.id = 'introduction__button';
