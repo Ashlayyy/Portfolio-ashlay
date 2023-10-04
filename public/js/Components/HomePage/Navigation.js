@@ -68,7 +68,7 @@ class Navigation {
 
     addSpecials = () => {
         this.navigationElement.id = 'navigation';
-        this.imgElement.src = '/images/Logo-Ash.webp';
+        this.imgElement.src = '/images/Logo/Logo-Ash.webp';
         this.buttonElement.id = 'navigation__contact';
     }
 
