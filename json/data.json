@@ -112,39 +112,39 @@
         "CodingLanguages": [{
             "Language": "HTML",
             "dateBegon": "2019-08-05",
-            "iconUrl": "https://cdn-icons-png.flaticon.com/512/732/732212.png"
+            "iconUrl": "/images/Skills/html.webp"
         }, {
             "Language": "CSS",
             "dateBegon": "2019-08-05",
-            "iconUrl": "https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png"
+            "iconUrl": "/images/Skills/css.webp"
         }, {
             "Language": "Javascript",
             "dateBegon": "2020-08-05",
-            "iconUrl": "https://assets.stickpng.com/images/613b64fe30e8530004ba3a03.png"
+            "iconUrl": "/images/Skills/js.webp"
         }, {
             "Language": "NodeJS",
             "dateBegon": "2020-08-05",
-            "iconUrl": "https://cdn.freebiesupply.com/logos/large/2x/nodejs-icon-logo-png-transparent.png"
+            "iconUrl": "/images/Skills/nodejs.webp"
         },{
             "Language": "PHP",
             "dateBegon": "2021-08-05",
-            "iconUrl": "https://assets.stickpng.com/images/58481791cef1014c0b5e4994.png"
+            "iconUrl": "/images/Skills/php.webp"
         }, {
             "Language": "SCSS",
             "dateBegon": "2022-08-05",
-            "iconUrl": "https://cdn.freebiesupply.com/logos/large/2x/sass-1-logo-png-transparent.png"
+            "iconUrl": "/images/Skills/sass.webp"
         }, {
             "Language": "VueJS",
             "dateBegon": "2022-08-05",
-            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/640px-Vue.js_Logo_2.svg.png"
+            "iconUrl": "/images/Skills/vue.webp"
         }, {
             "Language": "GIT",
             "dateBegon": "2022-08-17",
-            "iconUrl": "https://git-scm.com/images/logos/downloads/Git-Icon-Black.png"
+            "iconUrl": "/images/Skills/git.webp"
         }, {
             "Language": "React",
             "dateBegon": "2023-02-01",
-            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+            "iconUrl": "/images/Skills/react.webp"
         }]
     }
 }
