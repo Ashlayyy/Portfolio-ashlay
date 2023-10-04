@@ -32,7 +32,7 @@ class HumanAvatar {
     }
     
     addSpecials = () => {
-        this.imageAvatar.src = '/images/Foto-Ashlay.png';
+        this.imageAvatar.src = '/images/AboutMe/Foto-Ashlay.webp';
         this.textAboutMe.innerText = this.data.Translating.Dutch.TextAboutMe;
     }
 
