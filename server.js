@@ -48,7 +48,7 @@ app.use('/CustomComponents', express.static('./public/components'));
 
 app.use('/', require('./routes/index'));
 
-app.use(favicon(__dirname + 'public/images/favicon.ico'));
+app.use(favicon(__dirname + '/public/images/favicon.ico'));
 
 /* Starting app on port specified above */
 app.listen(port, () => {
