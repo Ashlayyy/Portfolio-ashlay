@@ -22,9 +22,16 @@
         aspect-ratio: 1/1;
         border-radius: 50%;
     }
+
+    &_textContainer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
     &_text {
-        width: 100%;
+        width: 65ch;
         color: map-get(colors.$colors, 'textColor');
         padding: 5rem;
         padding-top: 2.5rem;

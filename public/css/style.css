@@ -307,8 +307,14 @@ body {
   aspect-ratio: 1/1;
   border-radius: 50%;
 }
-.avatar_text {
+.avatar_textContainer {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar_text {
+  width: 65ch;
   color: #e9ffff;
   padding: 5rem;
   padding-top: 2.5rem;
@@ -629,7 +635,6 @@ html {
   }
   .mobileNavigation__text {
     font-size: 60%;
-    min-width: 100vw;
   }
 }
 /*Base and reset*/

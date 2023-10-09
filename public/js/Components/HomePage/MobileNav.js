@@ -54,12 +54,13 @@ class MobileNavigation {
                 this.listItemAElement.href = `#${this.names[i]}`;
                 this.listItemTextElement.innerText = `${this.names[i]}`
             }
-
+            console.log(this.names[i], this.fontAwsome[i], this.listItemTextElement)
             this.homePage.RenderEngine.render(this.listItemAElement, this.listItemLiElement);
             this.homePage.RenderEngine.render(this.navigationDivider, this.listItemAElement);
             this.homePage.RenderEngine.render(this.navigationDivider, this.listItemTextElement);
             this.homePage.RenderEngine.render(this.navigationListElement, this.navigationDivider);
         }
+        console.log(this.navigationListElement)
     }
 
     addClasses = () => {

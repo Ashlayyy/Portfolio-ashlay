@@ -11,5 +11,4 @@ public/backup
 logs
 
 #Not used anymore
-json/Setup/setup.json
 public/js/Setup
