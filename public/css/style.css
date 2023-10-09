@@ -624,7 +624,7 @@ html {
     display: flex;
   }
   .mobileNavigation_text {
-    font-size: 90%;
+    font-size: 60%;
   }
 }
 /*Base and reset*/
