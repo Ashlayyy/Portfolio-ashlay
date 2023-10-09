@@ -15,7 +15,7 @@ body {
 }
 
 body {
-  overflow-x: hidden;
+  overflow: hidden;
   height: 600vh;
   font-size: 160%;
   background: black;
@@ -625,9 +625,6 @@ html {
   }
   .mobileNavigation_text {
     font-size: 90%;
-  }
-  .fontAwsome {
-    font-size: 50%;
   }
 }
 /*Base and reset*/
