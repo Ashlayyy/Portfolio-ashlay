@@ -24,9 +24,9 @@
         }
     }
     .introduction {
-        &__title {
-            max-width: 40ch;
-        }
+        &__text {
+            width: 40ch;
+          }
     }
 
     .ProjectCard {

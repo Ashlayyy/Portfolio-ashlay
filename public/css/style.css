@@ -608,8 +608,8 @@ html {
     min-width: 100vw;
     font-size: 110%;
   }
-  .introduction__title {
-    max-width: 40ch;
+  .introduction__text {
+    width: 40ch;
   }
   .ProjectCard {
     min-width: 25rem;
