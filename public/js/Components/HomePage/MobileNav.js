@@ -47,12 +47,12 @@ class MobileNavigation {
             this.navigationDivider = document.createElement('div');
             this.navigationDivider.className = 'mobileNavigation__divider'
 
-            this.listItemTextElement.innerText = `${this.names[i]}`
-
             if(this.names[i] == 'About Me') {
                 this.listItemAElement.href = `#AboutMe`;
+                this.listItemTextElement.innerText = `About`
             } else {
                 this.listItemAElement.href = `#${this.names[i]}`;
+                this.listItemTextElement.innerText = `${this.names[i]}`
             }
 
             this.homePage.RenderEngine.render(this.listItemAElement, this.listItemLiElement);
