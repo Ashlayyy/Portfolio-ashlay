@@ -16,6 +16,7 @@ body {
 
 body {
   height: 600vh;
+  font-size: 120%;
   background: black;
 }
 
@@ -531,8 +532,7 @@ html {
 @media screen and (max-width: 1400px), screen and (max-device-width: 1400px) {
   body {
     height: max-content;
-    background-color: red;
-    font-size: 90%;
+    font-size: 110%;
   }
   .projects {
     min-height: min-content;
@@ -546,7 +546,8 @@ html {
 @media screen and (max-width: 850px), screen and (max-device-width: 850px) {
   .avatar_text {
     text-align: center;
-    min-width: 30ch;
+    min-width: 100%;
+    font-size: 100%;
   }
   .avatar_figure {
     padding: 5;
