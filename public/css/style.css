@@ -546,7 +546,7 @@ html {
 @media screen and (max-width: 850px), screen and (max-device-width: 850px) {
   .avatar_text {
     text-align: center;
-    min-width: 100%;
+    min-width: 40vw;
     font-size: 100%;
   }
   .avatar_figure {
