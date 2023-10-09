@@ -5,7 +5,7 @@
 
 Dit project is mijn eigen portfolio, hierop staan al mijn belangrijke projecten die af zijn of waar ik nog mee bezig ben. Ook kan je hierop vinden hoe je mij kan bereiken.
 
-## Demo (Not Live yet)
+## Live URL
 
 https://ashlaydev.com
 
