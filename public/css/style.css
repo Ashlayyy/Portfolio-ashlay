@@ -15,7 +15,7 @@ body {
 }
 
 body {
-  overflow: hidden;
+  overflow-y: hidden;
   height: 600vh;
   font-size: 160%;
   background: black;
