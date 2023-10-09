@@ -19,8 +19,13 @@
     .avatar {
         &_text {
             text-align: center;
-            min-width: 40vw;
+            min-width: 100vw;
             font-size: 110%;
+        }
+    }
+    .introduction {
+        &__title {
+            max-width: 40ch;
         }
     }
 

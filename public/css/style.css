@@ -15,7 +15,7 @@ body {
 }
 
 body {
-  overflow-y: hidden;
+  overflow-x: hidden;
   height: 600vh;
   font-size: 160%;
   background: black;
@@ -605,8 +605,11 @@ html {
 @media screen and (max-width: 850px), screen and (max-device-width: 850px) {
   .avatar_text {
     text-align: center;
-    min-width: 40vw;
+    min-width: 100vw;
     font-size: 110%;
+  }
+  .introduction__title {
+    max-width: 40ch;
   }
   .ProjectCard {
     min-width: 25rem;
