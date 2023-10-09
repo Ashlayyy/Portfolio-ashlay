@@ -22,10 +22,11 @@
             min-width: 40vw;
             font-size: 100%;
         }
+    }
 
-        &_figure {
-            padding: 5;
-        }
+    .ProjectCard {
+        min-width: 25rem;
+        height: 65rem;
     }
 }
 
