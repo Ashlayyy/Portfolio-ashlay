@@ -523,10 +523,10 @@ html {
   padding: 2rem;
 }
 .aboutMe_sideElement {
-  width: 50%;
+  width: 100%;
 }
 .aboutMe_secondSideElement {
-  width: 50%;
+  width: 100%;
 }
 .aboutMe_secondSection {
   display: flex;
