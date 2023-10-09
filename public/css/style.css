@@ -622,6 +622,9 @@ html {
   .mobileNavigation {
     display: flex;
   }
+  .mobileNavigation_text {
+    font-size: 90%;
+  }
   .fontAwsome {
     font-size: 50%;
   }

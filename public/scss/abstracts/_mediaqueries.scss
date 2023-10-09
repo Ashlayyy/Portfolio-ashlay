@@ -41,6 +41,10 @@
 
     .mobileNavigation {
         display: flex;
+
+        &_text {
+            font-size: 90%;
+        }
     }
 
     .fontAwsome {

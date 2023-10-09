@@ -10,7 +10,7 @@ class MobileNavigation {
         'Home', 'About Me', 'Projects', 'Contact'
     ];
     fontAwsome = [
-        '<i class="fa-solid fa-house fa-2x fontAwsome"></i>', '<i class="fa-solid fa-address-card fa-2x fontAwsome"></i>', '<i class="fa-solid fa-bars-progress fa-2x fontAwsome"></i>', '<i class="fa-solid fa-comment fa-2x fontAwsome"></i>'
+        '<i class="fa-solid fa-house fontAwsome"></i>', '<i class="fa-solid fa-address-card fontAwsome"></i>', '<i class="fa-solid fa-bars-progress fontAwsome"></i>', '<i class="fa-solid fa-comment fontAwsome"></i>'
     ]
     data = undefined;
     homePage = undefined;
