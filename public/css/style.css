@@ -297,7 +297,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   text-align: center;
   padding: 5rem;
   padding-bottom: 2.5rem;
