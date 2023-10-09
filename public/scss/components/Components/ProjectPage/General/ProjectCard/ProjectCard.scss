@@ -25,12 +25,14 @@
         background: #16697A;
         padding: 2rem;
         border-radius: 1rem;
+        min-width: 100%;
         color: white;
     }
 
     &_text {
         padding-top: 1rem;
         max-width: 50ch;
+        max-height: 10vh;
     }
 
     &_divider {
@@ -38,6 +40,7 @@
         padding: 1rem;
         flex-direction: row;
         gap: 1rem;
+        padding-top: 5rem;
     }
 
     &_button {
