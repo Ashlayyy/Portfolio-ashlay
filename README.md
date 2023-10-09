@@ -1,11 +1,11 @@
-![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Question_mark_%28black%29.svg/800px-Question_mark_%28black%29.svg.png)
+![Logo](https://ashlaydev.com/images/Logo/Logo-Ash.webp)
 
 
 # Portfolio Ashlay Steur
 
 Dit project is mijn eigen portfolio, hierop staan al mijn belangrijke projecten die af zijn of waar ik nog mee bezig ben. Ook kan je hierop vinden hoe je mij kan bereiken.
 
-## Demo (Not Live yet)
+## Live URL
 
 https://ashlaydev.com
 
