@@ -16,7 +16,7 @@ body {
 
 body {
   height: 600vh;
-  font-size: 120%;
+  font-size: 160%;
   background: black;
 }
 
@@ -54,6 +54,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 80vh;
+  text-align: center;
   color: #e9ffff;
   filter: none;
 }
