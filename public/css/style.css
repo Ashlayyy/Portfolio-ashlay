@@ -308,6 +308,7 @@ body {
   border-radius: 50%;
 }
 .avatar_text {
+  width: 100%;
   color: #e9ffff;
   padding: 5rem;
   padding-top: 2.5rem;

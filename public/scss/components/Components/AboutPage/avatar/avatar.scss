@@ -24,6 +24,7 @@
     }
     
     &_text {
+        width: 100%;
         color: map-get(colors.$colors, 'textColor');
         padding: 5rem;
         padding-top: 2.5rem;
