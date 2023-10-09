@@ -1,6 +1,7 @@
 @use "./abstracts/colors";
 
 body {
+  overflow-x: hidden;
   height: 600vh;
   font-size: 160%;
   background: black;
