@@ -532,6 +532,7 @@ html {
   body {
     height: max-content;
     background-color: red;
+    font-size: 75%;
   }
   .projects {
     min-height: min-content;
@@ -546,6 +547,7 @@ html {
   .avatar_text {
     text-align: center;
     min-width: 30ch;
+    font-size: 60%;
   }
   .avatar_figure {
     padding: 5;
