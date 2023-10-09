@@ -26,6 +26,7 @@ class App {
         this.RenderEngine.render(this.placeToRender, this.aboutMe.mainElement);
         this.RenderEngine.render(this.placeToRender, this.projects.mainElement);
         this.RenderEngine.render(this.placeToRender, this.contact.mainElement);
+        this.RenderEngine.render(this.placeToRender, this.home.mobileNavigation);
     }
 }
 

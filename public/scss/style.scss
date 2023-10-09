@@ -4,9 +4,10 @@
 
 /*Components*/
 //HomePage
+@use './components/Components/HomePage/navigation/navigation';
+@use './components/Components/HomePage/mobileNavigation/mobileNavigation';
 @use './components/Components/HomePage/background/background';
 @use './components/Components/HomePage/introduction/introduction';
-@use './components/Components/HomePage/navigation/navigation';
 @use './components/Components/HomePage/settings/settings';
 
 //AboutPage

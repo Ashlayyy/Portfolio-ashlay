@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px), screen and (max-device-width: 1400px) {
     body {
         height: max-content;
-        font-size: 110%;
+        font-size: 150%;
     }
 
     .projects {
@@ -20,7 +20,7 @@
         &_text {
             text-align: center;
             min-width: 40vw;
-            font-size: 100%;
+            font-size: 110%;
         }
     }
 
@@ -35,5 +35,15 @@
 }
 
 @media screen and (max-width: 650px), screen and (max-device-width: 650px) {
+    .navigation {
+        display: none;
+    }
 
+    .mobileNavigation {
+        display: flex;
+    }
+
+    .fontAwsome {
+        font-size: 50%;
+    }
 }
