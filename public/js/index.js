@@ -15,6 +15,7 @@ class App {
             this.home = new HomePage(this.finalData, this.RenderEngine);
             this.aboutMe = new AboutMePage(this.finalData, this.RenderEngine)
             this.projects = new ProjectsPage(this.finalData, this.RenderEngine);
+            this.upcomingProjects = new UpcomingProjectsPage(this.finalData, this.RenderEngine);
             this.contact = new ContactPage(this.finalData, this.RenderEngine);
             await this.render();
         })()
@@ -25,6 +26,7 @@ class App {
         this.RenderEngine.render(this.placeToRender, this.home.mainElement);
         this.RenderEngine.render(this.placeToRender, this.aboutMe.mainElement);
         this.RenderEngine.render(this.placeToRender, this.projects.mainElement);
+        this.RenderEngine.render(this.placeToRender, this.upcomingProjects.mainElement);
         this.RenderEngine.render(this.placeToRender, this.contact.mainElement);
         this.RenderEngine.render(this.placeToRender, this.home.mobileNavigation);
     }

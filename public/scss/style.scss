@@ -17,11 +17,13 @@
 
 //ProjectPage
 @use './components/Components/ProjectPage/General/ProjectCard/ProjectCard';
+@use './components/Components/UpcomingProjects/ProjectCard/UpcomingProjectCard';
 
 /*Pages*/
 @use './components/Pages/home/home';
 @use './components/Pages/aboutPage/about';
 @use './components/Pages/projectPage/projectPage';
+@use './components/Pages/upcmingProject/upcoming';
 @use './components/Pages/contactpage/contactpage';
 
 /*Mediaqueries*/
