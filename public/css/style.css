@@ -648,6 +648,7 @@ html {
   justify-content: center;
   align-items: center;
   gap: 5rem;
+  color: white;
 }
 .contact_title {
   color: white;
@@ -664,6 +665,16 @@ html {
 }
 .contact_email {
   color: white;
+}
+.contact_link {
+  color: black;
+  text-decoration: none;
+}
+.contact_link:hover {
+  cursor: pointer;
+}
+.contact_link:visited {
+  color: black;
 }
 
 @media screen and (max-width: 1400px), screen and (max-device-width: 1400px) {
