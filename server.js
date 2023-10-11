@@ -46,7 +46,7 @@ app.use(helmet.contentSecurityPolicy({
       "http://localhost/",
       "https://localhost/",
       "https://ashlaydev.com",
-      "nonce-helloo"
+      "nonce-hello"
     ],
     "connect-src": [
       "self", 
