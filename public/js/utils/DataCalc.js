@@ -18,7 +18,7 @@ class DataCalc {
         if (this.years === 1) {
             this.result = `${this.years} jaar`;
         } else if (this.years > 1) {
-            this.result = `${this.years} jaren`;
+            this.result = `${this.years} jaar`;
         } else this.result = `${this.months} maanden`;
         return this.result;
     }
