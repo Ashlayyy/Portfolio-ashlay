@@ -31,7 +31,8 @@ app.use(helmet.contentSecurityPolicy({
       "http://localhost/", 
       "https://localhost/",
       "https://ashlaydev.com/",
-      "nonce-hello"
+      "nonce-hello",
+      "unsafe-inline"
     ],
     "font-src": [
       "self", 
@@ -46,7 +47,8 @@ app.use(helmet.contentSecurityPolicy({
       "http://localhost/",
       "https://localhost/",
       "https://ashlaydev.com",
-      "nonce-hello"
+      "nonce-hello",
+      "unsafe-inline"
     ],
     "connect-src": [
       "self", 
