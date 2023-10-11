@@ -27,9 +27,7 @@ app.use(helmet.contentSecurityPolicy({
     "script-src": [
       "self", 
       "https://kit.fontawesome.com/", 
-      "https://www.googletagmanager.com/", 
-      "http://localhost/", 
-      "https://localhost/",
+      "https://googletagmanager.com/", 
       "https://ashlaydev.com/",
       "nonce-hello",
       "unsafe-inline"
@@ -37,15 +35,10 @@ app.use(helmet.contentSecurityPolicy({
     "font-src": [
       "self", 
       "https://ka-f.fontawesome.com/",
-      "http://localhost/",
-      "https://localhost/",
       "https://ashlaydev.com/"
     ],
     "style-src": [
       "self",
-      "http://localhost:8000/",
-      "http://localhost/",
-      "https://localhost/",
       "https://ashlaydev.com/",
       "nonce-hello",
       "unsafe-inline"
@@ -53,8 +46,6 @@ app.use(helmet.contentSecurityPolicy({
     "connect-src": [
       "self", 
       "https://ka-f.fontawesome.com/",
-      "http://localhost/",
-      "https://localhost/",
       "https://ashlaydev.com/",
       "https://*.google-analytics.com/"
     ]
