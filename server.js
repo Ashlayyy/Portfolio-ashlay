@@ -35,16 +35,25 @@ app.use(helmet.contentSecurityPolicy({
     ],
     "font-src": [
       "self", 
-      "https://ka-f.fontawesome.com/"
+      "https://ka-f.fontawesome.com/",
+      "http://localhost/",
+      "https://localhost/",
+      "https://ashlaydev.com"
     ],
     "style-src": [
       "self",
       "http://localhost:8000/",
-      "https://ashlaydev.com/"
+      "http://localhost/",
+      "https://localhost/",
+      "https://ashlaydev.com",
+      "nonce-helloo"
     ],
     "connect-src": [
       "self", 
-      "https://ka-f.fontawesome.com/"
+      "https://ka-f.fontawesome.com/",
+      "http://localhost/",
+      "https://localhost/",
+      "https://ashlaydev.com"
     ]
   },
 }));
