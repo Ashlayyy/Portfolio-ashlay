@@ -20,20 +20,56 @@ app.use(compression());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(bodyParser.raw());
-//app.use(helmet.contentSecurityPolicy());
-//app.use(helmet.crossOriginEmbedderPolicy());
-//app.use(helmet.crossOriginOpenerPolicy());
-//app.use(helmet.crossOriginResourcePolicy());
+
+app.use(helmet.contentSecurityPolicy({
+  useDefaults: true,
+  directives: {
+    "script-src": [
+      "self", 
+      "https://kit.fontawesome.com/", 
+      "https://www.googletagmanager.com/", 
+      "http://localhost/", 
+      "https://localhost/",
+      "https://ashlaydev.com/",
+      "nonce-hello"
+    ],
+    "font-src": [
+      "self", 
+      "https://ka-f.fontawesome.com/"
+    ],
+    "style-src": [
+      "self",
+      "http://localhost:8000/",
+      "https://ashlaydev.com/"
+    ],
+    "connect-src": [
+      "self", 
+      "https://ka-f.fontawesome.com/"
+    ]
+  },
+}));
+
+app.use(helmet.crossOriginEmbedderPolicy());
+app.use(helmet.crossOriginOpenerPolicy());
+app.use(helmet.crossOriginResourcePolicy());
 app.use(helmet.dnsPrefetchControl());
 app.use(helmet.expectCt());
-app.use(helmet.frameguard());
+app.use(
+  helmet.frameguard({
+    action: "deny",
+  })
+);
 app.use(helmet.hidePoweredBy());
 app.use(helmet.hsts());
 app.use(helmet.ieNoOpen());
 app.use(helmet.noSniff());
 app.use(helmet.originAgentCluster());
 app.use(helmet.permittedCrossDomainPolicies());
-app.use(helmet.referrerPolicy());
+app.use(
+  helmet.referrerPolicy({
+    policy: "no-referrer",
+  })
+)
 app.use(helmet.xssFilter());
 app.use(morgan('dev'));
 
