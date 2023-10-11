@@ -20,7 +20,9 @@ class ContactPage {
         this.sentence = document.createElement('p');
         this.email = document.createElement('p');
         this.phone = document.createElement('p');
+        this.divider = document.createElement('div');
         this.github = document.createElement('p');
+        this.discord = document.createElement('p');
     }
 
     addClasses = () => {
@@ -29,7 +31,9 @@ class ContactPage {
         this.sentence.classList = 'contact_sentence';
         this.email.classList = 'contact_email';
         this.phone.classList = 'contact_phone';
+        this.divider.classList = 'contact_divider';
         this.github.classList = 'contact_github';
+        this.discord.classList = 'contact_discord';
     }
     
     addSpecials = () => {
@@ -38,7 +42,8 @@ class ContactPage {
         this.sentence.innerText = 'Heb je interesse gekregen naar aanleiding van mijn werk of wil je gewoon praten? Ik ben bereikbaar op onderstaande ';
         this.phone.innerHTML = 'Telefoon: <a class="contact_link" href="tel:0630318130">06 30318130</a>';
         this.email.innerHTML = 'Email: <a class="contact_link" href="mailto:ashlay.prive@gmail.com">ashlay.prive@gmail.com</a>';
-        this.github.innerHTML = 'Github: <a class="contact_link" href="https://github.com/Ashlayyy" target="__blank">Ashlayyy</a>';
+        this.github.innerHTML = '<a class="contact_link" href="https://github.com/Ashlayyy" target="__blank"><i class="fa-brands fa-github fa-3x"></i></a>';
+        this.discord.innerHTML = 'Discord gebruikersnaam: <i class="contact_link">ashlayyyyyy</i>';
     }
 
     render = () => {
@@ -46,6 +51,8 @@ class ContactPage {
         this.RenderEngine.render(this.mainElement, this.sentence);
         this.RenderEngine.render(this.mainElement, this.email);
         this.RenderEngine.render(this.mainElement, this.phone);
-        this.RenderEngine.render(this.mainElement, this.github);
+        this.RenderEngine.render(this.mainElement, this.discord);
+        this.RenderEngine.render(this.divider, this.github);
+        this.RenderEngine.render(this.mainElement, this.divider);
     }
 }

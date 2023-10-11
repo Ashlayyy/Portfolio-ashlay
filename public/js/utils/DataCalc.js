@@ -16,10 +16,10 @@ class DataCalc {
         }
 
         if (this.years === 1) {
-            this.result = `${this.years} Year`;
+            this.result = `${this.years} jaar`;
         } else if (this.years > 1) {
-            this.result = `${this.years} Years`;
-        } else this.result = `${this.months} months`;
+            this.result = `${this.years} jaren`;
+        } else this.result = `${this.months} maanden`;
         return this.result;
     }
 }

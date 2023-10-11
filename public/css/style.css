@@ -669,6 +669,7 @@ html {
 .contact_link {
   color: black;
   text-decoration: none;
+  font-style: normal;
 }
 .contact_link:hover {
   cursor: pointer;
