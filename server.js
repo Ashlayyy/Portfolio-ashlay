@@ -39,14 +39,14 @@ app.use(helmet.contentSecurityPolicy({
       "https://ka-f.fontawesome.com/",
       "http://localhost/",
       "https://localhost/",
-      "https://ashlaydev.com"
+      "https://ashlaydev.com/"
     ],
     "style-src": [
       "self",
       "http://localhost:8000/",
       "http://localhost/",
       "https://localhost/",
-      "https://ashlaydev.com",
+      "https://ashlaydev.com/",
       "nonce-hello",
       "unsafe-inline"
     ],
@@ -55,7 +55,8 @@ app.use(helmet.contentSecurityPolicy({
       "https://ka-f.fontawesome.com/",
       "http://localhost/",
       "https://localhost/",
-      "https://ashlaydev.com"
+      "https://ashlaydev.com/",
+      "https://*.google-analytics.com/"
     ]
   },
 }));
