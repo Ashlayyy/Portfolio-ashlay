@@ -27,7 +27,7 @@ app.use(helmet.contentSecurityPolicy({
     "script-src": [
       "self", 
       "https://kit.fontawesome.com/", 
-      "https://googletagmanager.com/", 
+      "https://www.googletagmanager.com/", 
       "https://ashlaydev.com/",
       "nonce-hello",
       "unsafe-inline"
