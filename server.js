@@ -29,7 +29,8 @@ app.use(helmet.contentSecurityPolicy({
       "https://kit.fontawesome.com/", 
       "https://www.googletagmanager.com/", 
       "https://ashlaydev.com/",
-      "'unsafe-inline'"
+      "'unsafe-inline'",
+      "*.cloudflare.com"
     ],
     "font-src": [
       "self", 
@@ -39,7 +40,8 @@ app.use(helmet.contentSecurityPolicy({
     "style-src": [
       "self",
       "'unsafe-inline'",
-      "https://ashlaydev.com/"
+      "https://ashlaydev.com/",
+      "*.cloudflare.com"
     ],
     "connect-src": [
       "self", 
