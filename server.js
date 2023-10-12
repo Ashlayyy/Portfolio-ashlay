@@ -35,7 +35,8 @@ app.use(helmet.contentSecurityPolicy({
     "font-src": [
       "self", 
       "https://ka-f.fontawesome.com/",
-      "https://ashlaydev.com/"
+      "https://ashlaydev.com/",
+      "*.cloudflare.com/"
     ],
     "style-src": [
       "self",
