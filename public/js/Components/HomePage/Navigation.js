@@ -12,7 +12,7 @@ class Navigation {
         'Home', 'Over Mij', 'Projecten', 'Contact'
     ];
     classNames = [
-        'Home', 'About Me', 'Projects', 'Contact'
+        'Home', 'AboutMe', 'Projects', 'Contact'
     ]
     data = undefined;
     homePage = undefined;
