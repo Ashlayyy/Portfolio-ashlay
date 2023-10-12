@@ -313,6 +313,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
   gap: 5rem;
 }
 .avatar_text {
@@ -321,9 +322,6 @@ body {
   padding: 5rem;
   padding-top: 2.5rem;
   text-align: center;
-}
-.avatar_link {
-  width: 100%;
 }
 .avatar_button {
   position: absolute;

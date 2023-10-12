@@ -29,6 +29,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+        flex-direction: column;
         gap: 5rem;
     }
     
@@ -38,10 +39,6 @@
         padding: 5rem;
         padding-top: 2.5rem;
         text-align: center;
-    }
-
-    &_link {
-        width: 100%;
     }
 
     &_button {
