@@ -29,7 +29,7 @@
     filter: none;
   }
 
-  &__link {
+  &__link,  &__anchor {
     color: map-get(colors.$colors, "textColor");
     text-decoration: none;
     animation: all 2s;

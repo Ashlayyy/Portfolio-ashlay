@@ -131,13 +131,13 @@ body {
   font-size: 125%;
   filter: none;
 }
-.mobileNavigation__link {
+.mobileNavigation__link, .mobileNavigation__anchor {
   color: #e9ffff;
   text-decoration: none;
   animation: all 2s;
   filter: none;
 }
-.mobileNavigation__link:hover {
+.mobileNavigation__link:hover, .mobileNavigation__anchor:hover {
   color: #00897E;
   filter: brightness(125%);
 }
