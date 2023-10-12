@@ -48,18 +48,24 @@ class MobileNavigation {
             this.listItemTextElement.classList = 'mobileNavigation__text';
 
             this.navigationDivider = document.createElement('div');
-            this.navigationDivider.className = 'mobileNavigation__divider'
+            this.navigationDivider.classList = 'mobileNavigation__divider'
+
+            this.tempElement = document.createElement('a');
+            this.tempElement.classList = 'mobileNavigation__anchor';
 
             if(this.names[i] == 'Over Mij') {
                 this.listItemAElement.href = `#AboutMe`;
+                this.tempElement.href = `#AboutMe`;
                 this.listItemTextElement.innerText = `Over Mij`
             } else {
                 this.listItemAElement.href = `#${this.classNames[i]}`;
+                this.tempElement.href = `#${this.classNames[i]}`;
                 this.listItemTextElement.innerText = `${this.names[i]}`
             }
             this.homePage.RenderEngine.render(this.listItemAElement, this.listItemLiElement);
             this.homePage.RenderEngine.render(this.navigationDivider, this.listItemAElement);
-            this.homePage.RenderEngine.render(this.navigationDivider, this.listItemTextElement);
+            this.homePage.RenderEngine.render(this.tempElement, this.listItemTextElement);
+            this.homePage.RenderEngine.render(this.navigationDivider, this.tempElement);
             this.homePage.RenderEngine.render(this.navigationListElement, this.navigationDivider);
         }
         console.log(this.navigationListElement)

@@ -44,7 +44,7 @@
   &__divider {
     color: map-get(colors.$colors, "textColor");
     text-decoration: none;
-    animation: all 2s;
+    animation: all 0.3s;
     display: flex;
     justify-content: center;
     align-items: center;
