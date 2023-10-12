@@ -725,12 +725,19 @@ html {
     padding: 0;
     max-width: 35ch;
   }
+  .avatar_textContainer {
+    gap: 5rem;
+  }
+  .avatar_button {
+    margin-top: 10rem;
+  }
   .introduction__text {
     width: 40ch;
   }
   .ProjectCard {
     min-width: 25rem;
-    height: 50rem;
+    height: 55rem;
+    max-height: max-content;
   }
   .ProjectCard_github, .ProjectCard_explore, .ProjectCard_live {
     font-size: 80%;
