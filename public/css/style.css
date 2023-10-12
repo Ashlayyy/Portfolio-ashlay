@@ -674,6 +674,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 5rem;
   color: white;
 }
@@ -739,6 +740,9 @@ html {
   }
   .ProjectCard_github, .ProjectCard_explore, .ProjectCard_live {
     font-size: 80%;
+  }
+  .contact {
+    height: max-content;
   }
 }
 @media screen and (max-width: 650px), screen and (max-device-width: 650px) {
