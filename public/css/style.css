@@ -728,9 +728,6 @@ html {
   .avatar_textContainer {
     gap: 5rem;
   }
-  .avatar_button {
-    margin-top: 10rem;
-  }
   .introduction__text {
     width: 40ch;
   }
