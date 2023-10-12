@@ -42,7 +42,7 @@ class ContactPage {
         this.sentence.innerText = 'Heb je interesse gekregen naar aanleiding van mijn werk of wil je gewoon praten? Ik ben bereikbaar met onderstaande gegevens. Ik zal zo snel mogelijk proberen te reageren.';
         this.phone.innerHTML = 'Telefoon: <br> <a class="contact_link" href="tel:0630318130">06 30318130</a>';
         this.email.innerHTML = 'Email: <br> <a class="contact_link" href="mailto:ashlay.prive@gmail.com">ashlay.prive@gmail.com</a>';
-        this.github.innerHTML = '<a class="contact_link" href="https://github.com/Ashlayyy" target="__blank"><i class="fa-brands fa-github fa-3x"></i></a>';
+        this.github.innerHTML = '<a style="display:none" class="contact_link" href="https://github.com/Ashlayyy" target="__blank"><i class="fa-brands fa-github fa-3x"></i></a>';
         this.discord.innerHTML = 'Discord gebruikersnaam: <br> <i class="contact_link">ashlayyyyyy</i>';
     }
 

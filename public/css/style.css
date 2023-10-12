@@ -735,8 +735,8 @@ html {
   }
   .ProjectCard {
     min-width: 25rem;
-    height: 55rem;
-    max-height: max-content;
+    min-height: 50rem;
+    max-height: 70rem;
   }
   .ProjectCard_github, .ProjectCard_explore, .ProjectCard_live {
     font-size: 80%;

@@ -35,8 +35,8 @@
 
     .ProjectCard {
         min-width: 25rem;
-        height: 55rem;
-        max-height: max-content;
+        min-height: 50rem;
+        max-height: 70rem;
 
         &_github, &_explore, &_live {
             font-size: 80%;
