@@ -41,9 +41,9 @@ class Introduction {
     addSpecials = () => {
         this.h2Element.innerText = 'Ashlay';
         this.h3Element.innerText = 'Developer';
-        this.textElement.innerText = 'Hello! This is my portfolio as a software developer. Look through all you want!';
+        this.textElement.innerText = 'Welkom op mijn portfolio, hierop kan je alles zien wat ik kan en waar ik ervaring mee heb!';
         this.buttonElement.id = 'introduction__button';
-        this.buttonElement.innerText = 'My projects';
+        this.buttonElement.innerText = 'Mijn projecten';
     }
 
     addClickListeners = () => {

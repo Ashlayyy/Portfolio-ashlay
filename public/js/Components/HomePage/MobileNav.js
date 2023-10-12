@@ -7,7 +7,7 @@ class MobileNavigation {
     listItemAElement = undefined;
     settings = undefined;
     names = [
-        'Home', 'About Me', 'Projects', 'Contact'
+        'Home', 'Over Mij', 'Projecten', 'Contact'
     ];
     fontAwsome = [
         '<i class="fa-solid fa-house fontAwsome"></i>', '<i class="fa-solid fa-address-card fontAwsome"></i>', '<i class="fa-solid fa-bars-progress fontAwsome"></i>', '<i class="fa-solid fa-comment fontAwsome"></i>'
@@ -47,9 +47,9 @@ class MobileNavigation {
             this.navigationDivider = document.createElement('div');
             this.navigationDivider.className = 'mobileNavigation__divider'
 
-            if(this.names[i] == 'About Me') {
+            if(this.names[i] == 'OverMij') {
                 this.listItemAElement.href = `#AboutMe`;
-                this.listItemTextElement.innerText = `About`
+                this.listItemTextElement.innerText = `Over Mij`
             } else {
                 this.listItemAElement.href = `#${this.names[i]}`;
                 this.listItemTextElement.innerText = `${this.names[i]}`

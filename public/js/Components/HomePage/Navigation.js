@@ -9,8 +9,11 @@ class Navigation {
     buttonElement = undefined;
     settings = undefined;
     names = [
-        'Home', 'About Me', 'Projects', 'Contact'
+        'Home', 'Over Mij', 'Projecten', 'Contact'
     ];
+    classNames = [
+        'Home', 'About Me', 'Projects', 'Contact'
+    ]
     data = undefined;
     homePage = undefined;
 
@@ -41,10 +44,10 @@ class Navigation {
 
             this.listItemAElement = document.createElement('a');
             this.listItemAElement.classList = 'navigation__link';
-            if(this.names[i] == 'About Me') {
+            if(this.names[i] == 'Over Mij') {
                 this.listItemAElement.href = `#AboutMe`;
             } else {
-                this.listItemAElement.href = `#${this.names[i]}`;
+                this.listItemAElement.href = `#${this.classNames[i]}`;
             }
 
             if (i < 3) {
