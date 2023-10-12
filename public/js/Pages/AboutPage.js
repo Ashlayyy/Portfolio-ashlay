@@ -40,7 +40,7 @@ class AboutMePage {
     
     addSpecials = () => {
         this.mainElement.id = 'AboutMe';
-        this.aboutMeTitle.innerText = 'About Me';
+        this.aboutMeTitle.innerText = 'Over Mij';
         this.skillsTitle.innerText = 'Skills';
     }
 

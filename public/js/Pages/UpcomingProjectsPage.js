@@ -29,7 +29,7 @@ class UpcomingProjectsPage {
     
     addSpecials = () => {
         this.mainElement.id = 'upcoming';
-        this.titleElement.innerText = "Upcoming Projects";
+        this.titleElement.innerText = "Aankomende Projecten";
     }
 
     render = () => {
