@@ -478,7 +478,7 @@ body {
 .ProjectCard_text {
   padding-top: 1rem;
   max-width: 50ch;
-  max-height: 10vh;
+  max-height: 20vh;
   padding-bottom: 2rem;
 }
 .ProjectCard_divider {
