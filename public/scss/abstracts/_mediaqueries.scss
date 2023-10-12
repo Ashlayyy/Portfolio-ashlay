@@ -24,7 +24,7 @@
             max-width: 35ch;
         }
         &_textContainer {
-            gap: 3rem;
+            gap: 5rem;
         }
     }
     .introduction {
@@ -35,7 +35,8 @@
 
     .ProjectCard {
         min-width: 25rem;
-        height: 50rem;
+        height: 55rem;
+        max-height: max-content;
 
         &_github, &_explore, &_live {
             font-size: 80%;
