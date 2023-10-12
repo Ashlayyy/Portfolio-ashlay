@@ -448,11 +448,10 @@ body {
 }
 
 .ProjectCard {
-  height: min-content;
   width: 30%;
+  min-width: 35rem;
   max-width: 35%;
   height: 55rem;
-  min-width: 35rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
