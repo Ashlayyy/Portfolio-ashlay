@@ -312,8 +312,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  margin: 0 auto;
+  text-align: center;
   gap: 5rem;
 }
 .avatar_text {
@@ -323,7 +322,10 @@ body {
   padding-top: 2.5rem;
   text-align: center;
 }
-.avatar_link .avatar_button {
+.avatar_link {
+  width: 100%;
+}
+.avatar_button {
   position: absolute;
   animation: 0.3s all;
   font-size: 1.5rem;
@@ -339,11 +341,11 @@ body {
   background: linear-gradient(#008F83, #008F83);
   filter: none;
 }
-.avatar_link .avatar_button:hover {
+.avatar_button:hover {
   cursor: pointer;
   background: linear-gradient(#008F83, #2ebfb7);
 }
-.avatar_link .avatar_button:active {
+.avatar_button:active {
   margin-left: 0.2rem;
   margin-top: 0.2rem;
   border: none;
