@@ -22,7 +22,8 @@
         "shortProjectTextDutch": "Dit is het portfolio van mijn vriendin, de website is gemaakt met Javascript en HTML + SCSS",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "solo": "Solo Project"
     },
     {
         "id": "2",
@@ -37,7 +38,8 @@
         "shortProjectTextDutch": "Dit is vanzelf sprekend natuurlijk mijn portfolio, volledig gemaakt in Object georienteerd Javascript.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "solo": "Solo Project"
     }, 
     {
         "id": "3",
@@ -52,7 +54,8 @@
         "shortProjectTextDutch": "Dit heb ik gemaakt op school, de opdracht was om in OOP Javascript het uiterlijk van Youtube na te bouwen op je eigen manier.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "solo": "Solo Project"
     },
     {
         "id": "4",
@@ -67,7 +70,8 @@
         "shortProjectTextDutch": "Dit project heb ik ook gemaakt op school, de opdracht was om een app te bouwen waarmee je text kon encrypten en kon decrypten.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "solo": "Solo Project"
     },
     {
         "id": "5",
@@ -82,7 +86,8 @@
         "shortProjectTextDutch": "De opdracht voor dit project was om een kleine agenda app te bouwen waar je de maanden kon zien met de juiste dagen.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "solo": "Solo Project"
     },
     {
         "id": "6",
@@ -97,7 +102,8 @@
         "shortProjectTextDutch": "Het doel van dit school project was om een app te bouwen met Javascript om verschillende verhalen op kon halen met een API.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",   
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "solo": "Solo Project"
     }],
 
     "UpComingProjects": [{

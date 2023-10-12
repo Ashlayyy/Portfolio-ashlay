@@ -20,6 +20,7 @@ class ProjectCard {
     createElements = () => {
         this.cardMainElement = document.createElement('section');
         this.cardImage = document.createElement('img');
+        this.soloElement = document.createElement('p');
         this.cardNameText = document.createElement('p');
         this.cardText = document.createElement('p');
         this.buttonDividerOne = document.createElement('div');
@@ -33,6 +34,7 @@ class ProjectCard {
         this.cardMainElement.classList = 'ProjectCard';
         this.cardImage.classList = 'ProjectCard_img';
         this.cardNameText.classList = 'ProjectCard_name';
+        this.soloElement.classList = 'ProjectCard_solo';
         this.cardText.classList = 'ProjectCard_text';
         this.buttonDividerOne.classList = 'ProjectCard_divider';
 
@@ -45,8 +47,10 @@ class ProjectCard {
         this.cardMainElement.id = this.data.id;
         this.cardNameText.innerText = this.data.name;
         this.cardImage.src = this.data.imgUrl;
+        this.soloElement.innerText = this.data.solo;
         this.cardText.innerText = this.data.shortProjectTextDutch;
 
+        if (this.data.solo != '') { this.soloElement.innerText = this.data.solo }
         if (this.data.githubUrl != '') { this.cardGithHubButton.innerHTML = '<i class="fa-brands fa-square-github fa-4x"></i>' }
         if (this.data.liveUrl != '') { this.liveButton.innerHTML = '<i class="fa-solid fa-globe fa-4x"></i>' }
         if (this.totalProjectPageDone) { this.cardExploreButton.innerHTML = '<i class="fa-solid fa-circle-info fa-4x"></i>' }
@@ -76,6 +80,7 @@ class ProjectCard {
     render = () => {
         this.projectPage.RenderEngine.render(this.cardMainElement, this.cardNameText);
         this.projectPage.RenderEngine.render(this.cardMainElement, this.cardImage);
+        if (this.data.solo != '') { this.projectPage.RenderEngine.render(this.cardMainElement, this.soloElement) }
         this.projectPage.RenderEngine.render(this.cardMainElement, this.cardText);
         this.projectPage.RenderEngine.render(this.cardMainElement, this.buttonDividerOne);
 
