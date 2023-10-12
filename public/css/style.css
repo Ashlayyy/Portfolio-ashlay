@@ -314,7 +314,6 @@ body {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  gap: 5rem;
 }
 .avatar_text {
   width: 65ch;
