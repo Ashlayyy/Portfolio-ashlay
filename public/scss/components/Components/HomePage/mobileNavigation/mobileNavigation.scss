@@ -41,7 +41,7 @@
     }
   }
 
-  &_divider {
+  &__divider {
     color: map-get(colors.$colors, "textColor");
     text-decoration: none;
     animation: all 2s;
