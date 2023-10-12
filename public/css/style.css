@@ -320,6 +320,31 @@ body {
   padding-top: 2.5rem;
   text-align: center;
 }
+.avatar_button {
+  position: absolute;
+  animation: 0.3s all;
+  font-size: 1.5rem;
+  font-family: Arial;
+  width: 16rem;
+  height: 5rem;
+  border-width: 0.1rem;
+  color: #e9ffff;
+  border-color: #008F83;
+  font-weight: bold;
+  border-radius: 1.8rem;
+  text-shadow: 0px 1px 0px rgb(155, 155, 155);
+  background: linear-gradient(#008F83, #008F83);
+  filter: none;
+}
+.avatar_button:hover {
+  cursor: pointer;
+  background: linear-gradient(#008F83, #2ebfb7);
+}
+.avatar_button:active {
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+  border: none;
+}
 
 .skillBars_container {
   display: flex;

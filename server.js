@@ -85,6 +85,7 @@ app.use('/html', express.static('./public/html'));
 app.use('/images', express.static('./public/images'));
 app.use('/json', express.static('./json'));
 app.use('/CustomComponents', express.static('./public/components'));
+app.use('/download', express.static('./public/download'));
 
 app.use('/', require('./routes/index'));
 
