@@ -39,7 +39,7 @@ class ContactPage {
     addSpecials = () => {
         this.mainElement.id = 'Contact';
         this.title.innerText = 'Contact';
-        this.sentence.innerText = 'Heb je interesse gekregen naar aanleiding van mijn werk of wil je gewoon praten? Ik ben bereikbaar met onderstaande gegevens. Ik zal zo snel mogelijk proberen te reageren.';
+        this.sentence.innerText = 'Heb je interesse gekregen naar aanleiding van mijn werk of wil je gewoon praten? Ik ben bereikbaar met onderstaande gegevens. Ik reageer dan zo snel mogelijk.';
         this.phone.innerHTML = '<p>Telefoon: <br> <a class="contact_link" href="tel:0630318130">06 30318130</a></p>';
         this.email.innerHTML = '<p>Email: <br> <a class="contact_link" href="mailto:ashlay.prive@gmail.com">ashlay.prive@gmail.com</a></p>';
         this.github.innerHTML = '<a class="contact_link" href="https://github.com/Ashlayyy" target="__blank"><i class="fa-brands fa-github fa-3x"></i></a>';
