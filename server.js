@@ -29,7 +29,6 @@ app.use(helmet.contentSecurityPolicy({
       "https://kit.fontawesome.com/", 
       "https://www.googletagmanager.com/", 
       "https://ashlaydev.com/",
-      "nonce-hello",
       "unsafe-inline"
     ],
     "font-src": [
@@ -40,7 +39,6 @@ app.use(helmet.contentSecurityPolicy({
     "style-src": [
       "self",
       "https://ashlaydev.com/",
-      "nonce-hello",
       "unsafe-inline"
     ],
     "connect-src": [
