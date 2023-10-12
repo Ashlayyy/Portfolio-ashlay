@@ -149,6 +149,8 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
+  gap: 1rem;
 }
 .mobileNavigation__divider:hover {
   color: #00897E;
