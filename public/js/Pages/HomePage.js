@@ -35,7 +35,7 @@ class HomePage {
         this.mainElement.classList = 'home';
         this.hintButtonWrapElement.classList = 'home__buttonWrapper';
         this.hintButtonElement.classList = 'home__hintButton';
-        this.hintIconElement.classList = 'fa-regular fa-angles-down fa-4x';
+        this.hintIconElement.classList = 'fa-solid fa-angle-down fa-4x';
     }
     
     addSpecials = () => {
