@@ -38,8 +38,8 @@ app.use(helmet.contentSecurityPolicy({
     ],
     "style-src": [
       "self",
-      "https://ashlaydev.com/",
-      "unsafe-inline"
+      "unsafe-inline",
+      "https://ashlaydev.com/"
     ],
     "connect-src": [
       "self", 
