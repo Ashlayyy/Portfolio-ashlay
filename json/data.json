@@ -127,7 +127,7 @@
         "longProjectTextEnglish": "",
         "verwachteTechStack": "HTML, SCSS & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
-        "hidden": "false"
+        "hidden": "true"
     }, {
         "id": "8",
         "name": "TimeSync",
@@ -172,7 +172,7 @@
         "longProjectTextEnglish": "",
         "verwachteTechStack": "HTML, SCSS & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
-        "hidden": "false"
+        "hidden": "true"
     }, {
         "id": "11",
         "name": "BoetApp",
@@ -202,7 +202,7 @@
         "longProjectTextEnglish": "",
         "verwachteTechStack": "HTML, SCSS & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
-        "hidden": "false"
+        "hidden": "true"
     }, {
         "id": "13",
         "name": "EventWatcher",
@@ -217,7 +217,7 @@
         "longProjectTextEnglish": "",
         "verwachteTechStack": "HTML, SCSS & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
-        "hidden": "false"
+        "hidden": "true"
     }, {
         "id": "14",
         "name": "Cashify",
@@ -241,7 +241,7 @@
         "logoUrl": "/images/Project/construction.webp",
         "githubUrl": "",
         "status": "notFinished",
-        "shortProjectTextDutch": "Signaller is een app waarmee berichtjes kunnen worden verstuurd naar telefoon nummers. Eigenlijk een soort Whatsapp en Signal dus, maar dan op mijn eigen manier.",
+        "shortProjectTextDutch": "Signaller is een app waarmee berichtem kunnen worden verstuurd naar telefoon nummers. Eigenlijk een soort Whatsapp en Signal dus, maar dan op mijn eigen manier.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
@@ -277,7 +277,7 @@
         "longProjectTextEnglish": "",
         "verwachteTechStack": "HTML, SCSS & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
-        "hidden": "false"
+        "hidden": "true"
     }, {
         "id": "18",
         "name": "Strategix",
