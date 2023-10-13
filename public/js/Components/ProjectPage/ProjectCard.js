@@ -24,11 +24,23 @@ class ProjectCard {
         this.cardNameText = document.createElement('p');
         this.cardText = document.createElement('p');
         this.buttonDividerOne = document.createElement('div');
+
         if (this.data.status == 'finished') { 
-            this.duration = new DataCalc(new Date(this.data.dateBegon), new Date(this.data.dateEnded)).result 
-            this.durationString = `${this.data.dateBegon} - ${this.data.dateEnded} / ${this.duration}`
+            if (this.data.dataEnded == '' || this.data.dataEnded == undefined) {
+                this.durationString = `
+Datum begonnen: ${this.data.dateBegon}
+Dastum geeindig: Nog niet klaar          
+                `
+            } else {
+                this.duration = new DataCalc(new Date(this.data.dateBegon), new Date(this.data.dateEnded)).result 
+            }
+            this.durationString = `
+Datum begonnen: ${this.data.dateBegon}
+Datum geeindig: ${this.data.dateEnded}
+Duur: ${this.duration}
+            `;
         } else {
-            this.durationString = 'Not Finished or not Started yet';
+            this.durationString = 'Not started yet';
         }
 
         console.log(this.duration, this.durationString)
