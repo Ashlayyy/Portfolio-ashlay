@@ -9,7 +9,7 @@ class ProjectCard {
         this.data = data;
         this.totalData = totalData;
         this.projectPage = projectPage;
-
+            
         this.createElements();
         this.addClasses();
         this.addSpecials();
