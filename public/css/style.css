@@ -464,6 +464,7 @@ body {
   padding: 10rem;
   border-radius: 0.5rem;
   background: rgba(69, 45, 249, 0.1);
+  font-size: 125%;
 }
 .ProjectCard_img {
   height: 10rem;
@@ -500,6 +501,7 @@ body {
 }
 .ProjectCard_solo {
   font-style: italic;
+  font-size: 100%;
 }
 
 .ProjectCard_Upcoming {
