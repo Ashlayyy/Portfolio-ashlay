@@ -119,7 +119,7 @@ Duur: ${this.duration}
         if (this.data.solo != '' && this.data.solo != undefined) { this.projectPage.RenderEngine.render(this.cardMainElement, this.soloElement) }
         this.projectPage.RenderEngine.render(this.cardMainElement, this.cardText);
         this.projectPage.RenderEngine.render(this.cardMainElement, this.techStack);
-        if (this.data.ServerTechStack != '' && this.data.ServerTechStack != undefined) {this.projectPage.RenderEngine.render(this.cardMainElement, this.serverTechStack)}
+        if ((this.data.ServerTechStack != '' && this.data.ServerTechStack != undefined) || (this.data.verwachteServerTechStack != '' && this.data.verwachteServerTechStack != undefined)) {this.projectPage.RenderEngine.render(this.cardMainElement, this.serverTechStack)}
         this.projectPage.RenderEngine.render(this.cardMainElement, this.datumString);
         this.projectPage.RenderEngine.render(this.cardMainElement, this.buttonDividerOne);
 
