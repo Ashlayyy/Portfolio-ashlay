@@ -470,6 +470,7 @@ body {
   border-radius: 1rem;
 }
 .ProjectCard_name {
+  margin: 2rem;
   font-size: 120%;
   background: #16697A;
   padding: 2rem;
