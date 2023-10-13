@@ -16,7 +16,7 @@ body {
 
 body {
   overflow-x: hidden;
-  height: 1250vh;
+  height: max-content;
   font-size: 160%;
   background: black;
 }
