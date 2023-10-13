@@ -24,6 +24,7 @@ class ProjectCard {
         this.cardNameText = document.createElement('p');
         this.cardText = document.createElement('p');
         this.buttonDividerOne = document.createElement('div');
+        this.datumString = document.createElement('p');
 
         if (this.data.status == 'finished') {
             if (this.data.dateEnded == '' || this.data.dateEnded == undefined) {
@@ -35,7 +36,6 @@ Datum geeindig: Nog niet klaar
 `
             } else {
                 this.duration = new DataCalc(new Date(this.data.dateBegon), new Date(this.data.dateEnded)).result;
-                console.log('Duration should be calculated');
                 this.durationString =
                 `
 Datum begonnen: ${this.data.dateBegon}
@@ -46,8 +46,6 @@ Duur: ${this.duration}
         } else {
             this.durationString = 'Not started yet';
         }
-
-        console.log(this.duration, this.durationString)
 
         if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement = document.createElement('p') }
         if (this.data.githubUrl != '') { this.cardGithHubButton = document.createElement('button') }
@@ -61,6 +59,7 @@ Duur: ${this.duration}
         this.cardNameText.classList = 'ProjectCard_name';
         this.cardText.classList = 'ProjectCard_text';
         this.buttonDividerOne.classList = 'ProjectCard_divider';
+        this.datumString.classList = 'ProjectCard_datums';
 
         if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement.classList = 'ProjectCard_solo' }
         if (this.data.githubUrl != '') { this.cardGithHubButton.classList = 'ProjectCard_github ProjectCard_button' }
@@ -73,6 +72,7 @@ Duur: ${this.duration}
         this.cardNameText.innerText = this.data.name;
         this.cardImage.src = this.data.imgUrl;
         this.cardText.innerText = this.data.shortProjectTextDutch;
+        this.datumString.innerText = this.durationString;
 
         if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement.innerText = this.data.solo }
         if (this.data.githubUrl != '') { this.cardGithHubButton.innerHTML = '<i class="fa-brands fa-square-github fa-4x"></i>' }
@@ -106,6 +106,7 @@ Duur: ${this.duration}
         this.projectPage.RenderEngine.render(this.cardMainElement, this.cardImage);
         if (this.data.solo != '' && this.data.solo != undefined) { this.projectPage.RenderEngine.render(this.cardMainElement, this.soloElement) }
         this.projectPage.RenderEngine.render(this.cardMainElement, this.cardText);
+        this.projectPage.RenderEngine.render(this.cardMainElement, this.datumString);
         this.projectPage.RenderEngine.render(this.cardMainElement, this.buttonDividerOne);
 
         if (this.data.liveUrl != '') { this.projectPage.RenderEngine.render(this.buttonDividerOne, this.liveButton) }
