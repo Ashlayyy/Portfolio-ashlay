@@ -460,11 +460,14 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 1rem;
+  gap: 0.5rem;
   padding: 7.5rem;
   border-radius: 0.5rem;
   background: rgba(69, 45, 249, 0.1);
   font-size: 120%;
+}
+.ProjectCard_gap {
+  gap: 1.25rem;
 }
 .ProjectCard_img {
   height: 10rem;

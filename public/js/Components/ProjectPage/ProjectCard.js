@@ -65,6 +65,9 @@ Duur: ${this.duration}
         this.techStack.classList = 'ProjectCard_stack';
         this.serverTechStack.classList = 'ProjectCard_serverStack';
         
+        if ((this.data.ServerTechStack != '' && this.data.ServerTechStack != undefined) || (this.data.verwachteServerTechStack != '' && this.data.verwachteServerTechStack != undefined)) {
+            this.cardMainElement.classList.add('ProjectCard_gap')
+        }
         if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement.classList = 'ProjectCard_solo' }
         if (this.data.githubUrl != '') { this.cardGithHubButton.classList = 'ProjectCard_github ProjectCard_button' }
         if (this.data.liveUrl != '') { this.liveButton.classList = 'ProjectCard_live ProjectCard_button' }
