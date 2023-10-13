@@ -20,11 +20,11 @@ class ProjectCard {
     createElements = () => {
         this.cardMainElement = document.createElement('section');
         this.cardImage = document.createElement('img');
-        this.soloElement = document.createElement('p');
         this.cardNameText = document.createElement('p');
         this.cardText = document.createElement('p');
         this.buttonDividerOne = document.createElement('div');
 
+        if (this.data.solo != '') { this.soloElement = document.createElement('p') }
         if (this.data.githubUrl != '') { this.cardGithHubButton = document.createElement('button') }
         if (this.data.liveUrl != '') { this.liveButton = document.createElement('button') }
         if (this.totalProjectPageDone) { this.cardExploreButton = document.createElement('button') }
@@ -34,10 +34,10 @@ class ProjectCard {
         this.cardMainElement.classList = 'ProjectCard';
         this.cardImage.classList = 'ProjectCard_img';
         this.cardNameText.classList = 'ProjectCard_name';
-        this.soloElement.classList = 'ProjectCard_solo';
         this.cardText.classList = 'ProjectCard_text';
         this.buttonDividerOne.classList = 'ProjectCard_divider';
 
+        if (this.data.solo != '') { this.soloElement.classList = 'ProjectCard_solo' }
         if (this.data.githubUrl != '') { this.cardGithHubButton.classList = 'ProjectCard_github ProjectCard_button' }
         if (this.data.liveUrl != '') { this.liveButton.classList = 'ProjectCard_live ProjectCard_button' }
         if (this.totalProjectPageDone) { this.cardExploreButton.classList = 'ProjectCard_explore ProjectCard_button' }
