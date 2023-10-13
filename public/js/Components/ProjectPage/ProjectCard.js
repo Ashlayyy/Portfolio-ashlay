@@ -26,8 +26,9 @@ class ProjectCard {
         this.buttonDividerOne = document.createElement('div');
         if (this.data.status == 'finished') { 
             this.duration = new DataCalc(new Date(this.data.dateBegon), new Date(this.data.dateEnded)).result 
+            this.durationString = `${this.data.dateBegon} - ${this.data.dateEnded} / ${this.duration}`
         } else {
-            this.duration = 'Not Finished or not Started yet';
+            this.durationString = 'Not Finished or not Started yet';
         }
 
         console.log(this.duration)
