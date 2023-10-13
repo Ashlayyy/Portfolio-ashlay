@@ -79,8 +79,8 @@ Duur: ${this.duration}
         this.datumString.innerText = this.durationString;
 
         if (this.projectPage.isUpcoming == true) {
-            this.techStack.innerText = `Verwachte talen: ${this.data.verwachteTechStack}`
-            if (this.data.ServerTechStack != '' && this.data.ServerTechStack != undefined) this.serverTechStack.innerText = `Server talen: ${this.data.verwachteServerTechStack}`
+            this.techStack.innerText = `Verwachting client: ${this.data.verwachteTechStack}`
+            if (this.data.ServerTechStack != '' && this.data.ServerTechStack != undefined) this.serverTechStack.innerText = `Verwachting server: ${this.data.verwachteServerTechStack}`
         } else {
             this.techStack.innerText = `Talen gebruikt: ${this.data.TechStack}`
             if (this.data.ServerTechStack != '' && this.data.ServerTechStack != undefined) this.serverTechStack.innerText = `Server talen: ${this.data.ServerTechStack}`
