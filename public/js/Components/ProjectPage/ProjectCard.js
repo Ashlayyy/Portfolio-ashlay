@@ -25,20 +25,23 @@ class ProjectCard {
         this.cardText = document.createElement('p');
         this.buttonDividerOne = document.createElement('div');
 
-        if (this.data.status == 'finished') { 
+        if (this.data.status == 'finished') {
             if (this.data.dataEnded == '' || this.data.dataEnded == undefined) {
-                this.durationString = `
+                this.durationString =
+                    `
 Datum begonnen: ${this.data.dateBegon}
-Dastum geeindig: Nog niet klaar          
-                `
+Datum geeindig: Nog niet klaar          
+`
+            this.duration = '';
             } else {
-                this.duration = new DataCalc(new Date(this.data.dateBegon), new Date(this.data.dateEnded)).result 
+                this.duration = new DataCalc(new Date(this.data.dateBegon), new Date(this.data.dateEnded)).result;
             }
-            this.durationString = `
+            this.durationString =
+                `
 Datum begonnen: ${this.data.dateBegon}
 Datum geeindig: ${this.data.dateEnded}
 Duur: ${this.duration}
-            `;
+`;
         } else {
             this.durationString = 'Not started yet';
         }
