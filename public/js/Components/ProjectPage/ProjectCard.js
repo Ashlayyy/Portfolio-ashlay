@@ -80,10 +80,10 @@ Duur: ${this.duration}
 
         if (this.projectPage.isUpcoming == true) {
             this.techStack.innerText = `Talen gebruikt: ${this.data.verwachteTechStack}`
-            this.serverTechStack.innerText = `Server talen: ${this.data.verwachteServerTechStack}`
+            if (this.data.ServerTechStack != '' && this.data.ServerTechStack != undefined) this.serverTechStack.innerText = `Server talen: ${this.data.verwachteServerTechStack}`
         } else {
             this.techStack.innerText = `Talen gebruikt: ${this.data.TechStack}`
-            if (this.data.ServerTechStack != '' && this.data.ServerTechStack == undefined) this.serverTechStack.innerText = `Server talen: ${this.data.ServerTechStack}`
+            if (this.data.ServerTechStack != '' && this.data.ServerTechStack != undefined) this.serverTechStack.innerText = `Server talen: ${this.data.ServerTechStack}`
         }
         if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement.innerText = this.data.solo }
         if (this.data.githubUrl != '') { this.cardGithHubButton.innerHTML = '<i class="fa-brands fa-square-github fa-4x"></i>' }
@@ -118,7 +118,7 @@ Duur: ${this.duration}
         if (this.data.solo != '' && this.data.solo != undefined) { this.projectPage.RenderEngine.render(this.cardMainElement, this.soloElement) }
         this.projectPage.RenderEngine.render(this.cardMainElement, this.cardText);
         this.projectPage.RenderEngine.render(this.cardMainElement, this.techStack);
-        if (this.data.ServerTechStack != '' && this.data.ServerTechStack == undefined) {this.projectPage.RenderEngine.render(this.cardMainElement, this.serverTechStack)}
+        if (this.data.ServerTechStack != '' && this.data.ServerTechStack != undefined) {this.projectPage.RenderEngine.render(this.cardMainElement, this.serverTechStack)}
         this.projectPage.RenderEngine.render(this.cardMainElement, this.datumString);
         this.projectPage.RenderEngine.render(this.cardMainElement, this.buttonDividerOne);
 
