@@ -16,7 +16,7 @@ body {
 
 body {
   overflow-x: hidden;
-  height: 1500vh;
+  height: 1250vh;
   font-size: 160%;
   background: black;
 }
@@ -577,7 +577,7 @@ html {
 
 .aboutMe {
   background: linear-gradient(180deg, rgb(32, 69, 78) 10%, rgb(72, 159, 181) 50%, rgb(72, 159, 181) 100%);
-  height: min-content;
+  height: max-content;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -622,6 +622,7 @@ html {
   background: rgb(72, 159, 181);
   width: 100%;
   height: 200vh;
+  max-height: max-content;
   z-index: 999;
   border-top: 0.15rem solid #3A8092;
 }
@@ -666,7 +667,7 @@ html {
 
 .contact {
   width: 100%;
-  height: 75vh;
+  height: max-content;
   z-index: 999;
   background: rgb(72, 159, 181);
   border-top: 0.15rem solid #3A8092;
