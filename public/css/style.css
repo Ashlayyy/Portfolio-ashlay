@@ -460,7 +460,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 0.5rem;
+  gap: 1.25rem;
   padding: 7.5rem;
   border-radius: 0.5rem;
   background: rgba(69, 45, 249, 0.1);
@@ -505,6 +505,9 @@ body {
 .ProjectCard_solo {
   font-style: italic;
   font-size: 100%;
+}
+.ProjectCard_extra {
+  gap: 0.5rem;
 }
 
 .ProjectCard_Upcoming {
