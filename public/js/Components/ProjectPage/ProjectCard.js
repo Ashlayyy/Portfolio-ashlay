@@ -66,7 +66,7 @@ Duur: ${this.duration}
         this.serverTechStack.classList = 'ProjectCard_serverStack';
         
         if (this.data.id == 2) {
-            this.cardMainElement.classList == 'ProjectCard ProjectCard_extra'
+            this.cardMainElement.classList = 'ProjectCard ProjectCard_extra'
         }
         if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement.classList = 'ProjectCard_solo' }
         if (this.data.githubUrl != '') { this.cardGithHubButton.classList = 'ProjectCard_github ProjectCard_button' }
