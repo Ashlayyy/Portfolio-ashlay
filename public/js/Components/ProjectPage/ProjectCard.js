@@ -26,7 +26,7 @@ class ProjectCard {
         this.buttonDividerOne = document.createElement('div');
 
         if (this.data.status == 'finished') {
-            if (this.data.dataEnded == '' || this.data.dataEnded == undefined) {
+            if (this.data.dateEnded == '' || this.data.dateEnded == undefined) {
                 this.duration = '';
                 this.durationString =
                     `
