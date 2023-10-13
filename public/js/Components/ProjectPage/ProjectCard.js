@@ -65,7 +65,7 @@ Duur: ${this.duration}
         this.techStack.classList = 'ProjectCard_stack';
         this.serverTechStack.classList = 'ProjectCard_serverStack';
         
-        if ((this.data.ServerTechStack != '' && this.data.ServerTechStack != undefined) || (this.data.verwachteServerTechStack != '' && this.data.verwachteServerTechStack != undefined)) {
+        if ((this.data.ServerTechStack == '' && this.data.ServerTechStack == undefined) || (this.data.verwachteServerTechStack == '' && this.data.verwachteServerTechStack == undefined)) {
             this.cardMainElement.classList.add('ProjectCard_gap')
         }
         if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement.classList = 'ProjectCard_solo' }
