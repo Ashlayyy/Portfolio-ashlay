@@ -16,7 +16,7 @@ class DataCalc {
             this.years = this.years + 1;
             this.months = this.months - 12;
         }
-        console.log(this.days)
+        console.log(`Days: ${this.days} Months: ${this.months} Years: ${this.years}`)
         if (this.years === 1) {
             this.result = `${this.years} jaar`;
         } else if (this.years > 1) {
