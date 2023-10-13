@@ -46,7 +46,7 @@ Duur: ${this.duration}
 `;
             }
         } else {
-            this.durationString = 'Not started yet';
+            this.durationString = 'Nog niet begonnen';
         }
 
         if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement = document.createElement('p') }
