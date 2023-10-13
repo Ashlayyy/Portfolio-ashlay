@@ -39,6 +39,7 @@ class UpcomingProjectsPage {
 
         for(let i = 0; i < this.data.UpComingProjects.length; i++) {
             if(this.data.UpComingProjects[i].hidden == true) return console.log('hidden!');
+            console.log(this.data.UpComingProjects[i])
             this.RenderEngine.render(this.divider, new ProjectCard(this.data.UpComingProjects[i], this.data.UpComingProjects, this).cardMainElement);
         }
     }
