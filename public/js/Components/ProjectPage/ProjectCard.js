@@ -67,6 +67,7 @@ Duur: ${this.duration}
         
         if ((this.data.ServerTechStack == '' && this.data.ServerTechStack == undefined) || (this.data.verwachteServerTechStack == '' && this.data.verwachteServerTechStack == undefined)) {
             this.cardMainElement.classList.add('ProjectCard_gap')
+            console.log(this.data)
         }
         if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement.classList = 'ProjectCard_solo' }
         if (this.data.githubUrl != '') { this.cardGithHubButton.classList = 'ProjectCard_github ProjectCard_button' }
