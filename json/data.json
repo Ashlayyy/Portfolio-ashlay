@@ -41,7 +41,7 @@
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
         "solo": "Solo Project",
-        "TechStack": "HTML, SCSS, Javascript (OOP)",
+        "TechStack": "HTML, SCSS, Javascript",
         "ServerTechStack": "NodeJs, Express"
     }, 
     {
@@ -59,7 +59,7 @@
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
         "solo": "Solo Project",
-        "TechStack": "HTML, SCSS, Javascript (OOP)"
+        "TechStack": "HTML, SCSS, Javascript"
     },
     {
         "id": "4",
@@ -76,7 +76,7 @@
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
         "solo": "Solo Project",
-        "TechStack": "HTML, SCSS, Javascript (OOP)"
+        "TechStack": "HTML, SCSS, Javascript"
     },
     {
         "id": "5",
@@ -93,7 +93,7 @@
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
         "solo": "Solo Project",
-        "TechStack": "HTML, SCSS, Javascript (OOP)"
+        "TechStack": "HTML, SCSS, Javascript"
     },
     {
         "id": "6",
@@ -110,7 +110,7 @@
         "longProjectTextDutch": "",   
         "longProjectTextEnglish": "",
         "solo": "Solo Project",
-        "TechStack": "HTML, SCSS, Javascript (OOP)"
+        "TechStack": "HTML, SCSS, Javascript"
     }],
 
     "UpComingProjects": [{
@@ -125,7 +125,7 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteTechStack": "Html, Scss & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
         "hidden": "false"
     }, {
@@ -140,7 +140,7 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteTechStack": "Html, Scss & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
         "hidden": "false"
     }, {
@@ -155,7 +155,7 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteTechStack": "Html, Scss & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
         "hidden": "false"
     }, {
@@ -170,7 +170,7 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteTechStack": "Html, Scss & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
         "hidden": "false"
     }, {
@@ -185,7 +185,7 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteTechStack": "Html, Scss & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
         "hidden": "false"
     }, {
@@ -200,7 +200,7 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteTechStack": "Html, Scss & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
         "hidden": "false"
     }, {
@@ -215,7 +215,7 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteTechStack": "Html, Scss & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
         "hidden": "false"
     }, {
@@ -230,7 +230,7 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteTechStack": "Html, Scss & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
         "hidden": "false"
     }, {
@@ -245,7 +245,7 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteTechStack": "Html, Scss & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
         "hidden": "false"
     }, {
@@ -260,7 +260,7 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteTechStack": "Html, Scss & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
         "hidden": "false"
     }, {
@@ -275,7 +275,7 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteTechStack": "Html, Scss & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
         "hidden": "false"
     }, {
@@ -290,7 +290,7 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteTechStack": "Html, Scss & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
         "hidden": "false"
     }],
