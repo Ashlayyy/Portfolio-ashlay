@@ -18,7 +18,7 @@ class ProjectCard {
     }
 
     createElements = () => {
-        console.log(this.data.solo)
+        console.log('Hello!', this.data.solo)
         this.cardMainElement = document.createElement('section');
         this.cardImage = document.createElement('img');
         this.cardNameText = document.createElement('p');
