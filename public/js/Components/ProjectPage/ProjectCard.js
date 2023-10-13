@@ -80,7 +80,7 @@ Duur: ${this.duration}
 
         if (this.projectPage.isUpcoming == true) {
             this.techStack.innerText = `Verwachting: ${this.data.verwachteTechStack}`
-            if (this.data.ServerTechStack != '' && this.data.ServerTechStack != undefined) this.serverTechStack.innerText = `Verwachting server: ${this.data.verwachteServerTechStack}`
+            if (this.data.verwachteServerTechStack != '' && this.data.verwachteServerTechStack != undefined) this.serverTechStack.innerText = `Verwachting server: ${this.data.verwachteServerTechStack}`
         } else {
             this.techStack.innerText = `Talen gebruikt: ${this.data.TechStack}`
             if (this.data.ServerTechStack != '' && this.data.ServerTechStack != undefined) this.serverTechStack.innerText = `Server talen: ${this.data.ServerTechStack}`
