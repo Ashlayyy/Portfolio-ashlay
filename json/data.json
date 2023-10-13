@@ -40,7 +40,9 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "solo": "Solo Project"
+        "solo": "Solo Project",
+        "TechStack": "HTML, SCSS, Javascript (OOP)",
+        "ServerTechStack": "NodeJs, Express"
     }, 
     {
         "id": "3",
@@ -56,7 +58,8 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "solo": "Solo Project"
+        "solo": "Solo Project",
+        "TechStack": "HTML, SCSS, Javascript (OOP)"
     },
     {
         "id": "4",
@@ -72,7 +75,8 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "solo": "Solo Project"
+        "solo": "Solo Project",
+        "TechStack": "HTML, SCSS, Javascript (OOP)"
     },
     {
         "id": "5",
@@ -88,7 +92,8 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
         "longProjectTextEnglish": "",
-        "solo": "Solo Project"
+        "solo": "Solo Project",
+        "TechStack": "HTML, SCSS, Javascript (OOP)"
     },
     {
         "id": "6",
@@ -104,7 +109,8 @@
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",   
         "longProjectTextEnglish": "",
-        "solo": "Solo Project"
+        "solo": "Solo Project",
+        "TechStack": "HTML, SCSS, Javascript (OOP)"
     }],
 
     "UpComingProjects": [{
@@ -118,7 +124,10 @@
         "shortProjectTextDutch": "SecuBridge is een programma / handler dat voor verschillende taken is ontwikkeld. Het overgrote gedeelte van deze 'commands' zou kunnen worden gebruikt met bijvoorbeeld het encrypten van data en de afhandeling van data.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteServerTechStack": "NodeJs, Express",
+        "hidden": "false"
     }, {
         "id": "8",
         "name": "TimeSync",
@@ -130,7 +139,10 @@
         "shortProjectTextDutch": "TimeSync is een project waar ik het belang op wou leggen hoe belangrijk tijd is in een 'Work Force Managment' service. Dit wordt een rooster app voor werkgevers en werknemers moeten worden waar ze het rooster in kunnen zetten en kunnen bekijken.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteServerTechStack": "NodeJs, Express",
+        "hidden": "false"
     }, {
         "id": "9",
         "name": "MapConnect",
@@ -142,7 +154,10 @@
         "shortProjectTextDutch": "Dit is een app gebaseerd op de basis functies van apps zoals Life360. Je kan iemand volgen en plaatsen toevoegen. Dit zou een app worden voor prive gebruik, maar een toekomst tot eventueele app die iedereen zou kunnen gebruiken is niet uit te sluiten.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteServerTechStack": "NodeJs, Express",
+        "hidden": "false"
     }, {
         "id": "10",
         "name": "AuthGuard",
@@ -154,7 +169,10 @@
         "shortProjectTextDutch": "Het plan met dit project is om een soort DigiD te ontwikkelen om bijvoorbeel makkelijker in te loggen. Het zou natuurlijk niet officieel kunnen worden gebruikt, maar het is een goed oefening voor mezelf.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteServerTechStack": "NodeJs, Express",
+        "hidden": "false"
     }, {
         "id": "11",
         "name": "BoetApp",
@@ -166,7 +184,10 @@
         "shortProjectTextDutch": "Dit is een app gericht op het makkelijker maken van het navigeren op de boet website. De Boet heeft zelf een website, maar geen app, hiermee wou ik met deze app dit gat opvullen.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteServerTechStack": "NodeJs, Express",
+        "hidden": "false"
     }, {
         "id": "12",
         "name": "Pegasus",
@@ -178,7 +199,10 @@
         "shortProjectTextDutch": "Het idee achter deze app is dat privacy en encryptie het belangrijkste onderdeel zouden zijn van het gehele messaging systeem. Dit zou bijvoorbeeld handig kunnen zijn voor een overheid of personen die provacy hoog hebben staan.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteServerTechStack": "NodeJs, Express",
+        "hidden": "false"
     }, {
         "id": "13",
         "name": "EventWatcher",
@@ -190,7 +214,10 @@
         "shortProjectTextDutch": "Dit project is een uitwerking van mijn gedachte met hoe TicketMaster en vergelijkbare apps soms totaal niet fijn werken en/of onhandig werken.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteServerTechStack": "NodeJs, Express",
+        "hidden": "false"
     }, {
         "id": "14",
         "name": "Cashify",
@@ -202,7 +229,10 @@
         "shortProjectTextDutch": "Cashify is een app om je te helpen een budget te maken en je er aan blijft houden. Dit wordt gedaan door onder andere meldingen sturen en het eerlijk invullen van antwoord in een app/website.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteServerTechStack": "NodeJs, Express",
+        "hidden": "false"
     }, {
         "id": "15",
         "name": "Signaller",
@@ -214,7 +244,10 @@
         "shortProjectTextDutch": "Signaller is een app waarmee berichtjes kunnen worden verstuurd naar telefoon nummers. Eigenlijk een soort Whatsapp en Signal dus, maar dan op mijn eigen manier.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteServerTechStack": "NodeJs, Express",
+        "hidden": "false"
     }, {
         "id": "16",
         "name": "PcRebuild",
@@ -226,7 +259,10 @@
         "shortProjectTextDutch": "PcRebuild is een website waarmee je een pc zou kunnen samenstellen en ook kan kijken of het allemaal zou passen. Het principe van Pcpartpicker, maar dan in een netter uiterlijk.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteServerTechStack": "NodeJs, Express",
+        "hidden": "false"
     }, {
         "id": "17",
         "name": "Wisdom",
@@ -238,7 +274,10 @@
         "shortProjectTextDutch": "Dit zou een app worden om oudere mensen of mensen met bepaalde beperkingen te kunnen helpen met dageijkse taken die niet lastig zouden zijn voor mensen zonder speciale benodigheden. Dit is te behalen door hetzelde principe toe te passen als de app BeMyEyes.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteServerTechStack": "NodeJs, Express",
+        "hidden": "false"
     }, {
         "id": "18",
         "name": "Strategix",
@@ -250,7 +289,10 @@
         "shortProjectTextDutch": "Een online platform waar mensen offline of online spellen kunnen spelen zoals Risk en Chess. Ook andere spellen kunnen gespeeld worden op deze website ook is bijvoorbeeld een app voor een telefoon niet uit te sluiten.",
         "shortProjectTextEnglish": "",
         "longProjectTextDutch": "",
-        "longProjectTextEnglish": ""
+        "longProjectTextEnglish": "",
+        "verwachteTechStack": "Html, Scss & Javascript (OOP)",
+        "verwachteServerTechStack": "NodeJs, Express",
+        "hidden": "false"
     }],
 
     "Experience": {

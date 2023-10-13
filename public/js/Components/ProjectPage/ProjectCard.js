@@ -25,6 +25,8 @@ class ProjectCard {
         this.cardText = document.createElement('p');
         this.buttonDividerOne = document.createElement('div');
         this.datumString = document.createElement('p');
+        this.techStack = document.createElement('p');
+        this.serverTechStack = document.createElement('p');
 
         if (this.data.status == 'finished') {
             if (this.data.dateEnded == '' || this.data.dateEnded == undefined) {
@@ -55,13 +57,14 @@ Duur: ${this.duration}
 
     addClasses = () => {
         if (this.projectPage.isUpcoming == true) {this.cardMainElement.classList = 'ProjectCard_Upcoming'} else this.cardMainElement.classList = 'ProjectCard';
-        console.log(this.projectPage, this.cardMainElement.classList);
         this.cardImage.classList = 'ProjectCard_img';
         this.cardNameText.classList = 'ProjectCard_name';
         this.cardText.classList = 'ProjectCard_text';
         this.buttonDividerOne.classList = 'ProjectCard_divider';
         this.datumString.classList = 'ProjectCard_datums';
-
+        this.techStack.classList = 'ProjectCard_stack';
+        this.serverTechStack.classList = 'ProjectCard_serverStack';
+        
         if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement.classList = 'ProjectCard_solo' }
         if (this.data.githubUrl != '') { this.cardGithHubButton.classList = 'ProjectCard_github ProjectCard_button' }
         if (this.data.liveUrl != '') { this.liveButton.classList = 'ProjectCard_live ProjectCard_button' }
@@ -75,6 +78,13 @@ Duur: ${this.duration}
         this.cardText.innerText = this.data.shortProjectTextDutch;
         this.datumString.innerText = this.durationString;
 
+        if (this.projectPage.isUpcoming == true) {
+            this.techStack.innerText = `Talen gebruikt: ${this.data.verwachteTechStack}`
+            this.serverTechStack.innerText = `Server talen: ${this.data.verwachteServerTechStack}`
+        } else {
+            this.techStack.innerText = `Talen gebruikt: ${this.data.TechStack}`
+            if (this.data.ServerTechStack != '' && this.data.ServerTechStack == undefined) this.serverTechStack.innerText = `Server talen: ${this.data.ServerTechStack}`
+        }
         if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement.innerText = this.data.solo }
         if (this.data.githubUrl != '') { this.cardGithHubButton.innerHTML = '<i class="fa-brands fa-square-github fa-4x"></i>' }
         if (this.data.liveUrl != '') { this.liveButton.innerHTML = '<i class="fa-solid fa-globe fa-4x"></i>' }
@@ -107,6 +117,8 @@ Duur: ${this.duration}
         this.projectPage.RenderEngine.render(this.cardMainElement, this.cardImage);
         if (this.data.solo != '' && this.data.solo != undefined) { this.projectPage.RenderEngine.render(this.cardMainElement, this.soloElement) }
         this.projectPage.RenderEngine.render(this.cardMainElement, this.cardText);
+        this.projectPage.RenderEngine.render(this.cardMainElement, this.techStack);
+        if (this.data.ServerTechStack != '' && this.data.ServerTechStack == undefined) {this.projectPage.RenderEngine.render(this.cardMainElement, this.serverTechStack)}
         this.projectPage.RenderEngine.render(this.cardMainElement, this.datumString);
         this.projectPage.RenderEngine.render(this.cardMainElement, this.buttonDividerOne);
 
