@@ -48,6 +48,7 @@ class ProjectCard {
         this.cardMainElement.id = this.data.id;
         this.cardNameText.innerText = this.data.name;
         this.cardImage.src = this.data.imgUrl;
+        //this.soloElement.innerText = this.data.solo;
         this.cardText.innerText = this.data.shortProjectTextDutch;
 
         if (this.data.solo != '') { this.soloElement.innerText = this.data.solo }
