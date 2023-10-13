@@ -31,7 +31,7 @@ class ProjectCard {
             this.durationString = 'Not Finished or not Started yet';
         }
 
-        console.log(this.duration)
+        console.log(this.duration, this.durationString)
 
         if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement = document.createElement('p') }
         if (this.data.githubUrl != '') { this.cardGithHubButton = document.createElement('button') }
