@@ -473,13 +473,13 @@ body {
   background: #16697A;
   padding: 2rem;
   border-radius: 1rem;
-  min-width: 100%;
+  width: 100%;
   color: white;
 }
 .ProjectCard_text {
   padding-top: 1rem;
-  max-width: 50ch;
-  max-height: 20vh;
+  width: 50ch;
+  height: 20vh;
   padding-bottom: 2rem;
 }
 .ProjectCard_divider {
