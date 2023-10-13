@@ -501,8 +501,8 @@ body {
 
 .ProjectCard_Upcoming {
   width: 30%;
-  min-width: 35rem;
-  max-width: 40%;
+  min-width: 50rem;
+  max-width: 50%;
   height: 60rem;
   display: flex;
   flex-direction: column;
