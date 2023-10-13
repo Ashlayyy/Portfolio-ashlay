@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 class ProjectCard {
     data = undefined;
@@ -18,12 +19,18 @@ class ProjectCard {
     }
 
     createElements = () => {
-        console.log('Hello!', this.data.solo)
         this.cardMainElement = document.createElement('section');
         this.cardImage = document.createElement('img');
         this.cardNameText = document.createElement('p');
         this.cardText = document.createElement('p');
         this.buttonDividerOne = document.createElement('div');
+        if (this.data.status == 'finished') { 
+            this.duration = new DataCalc(this.data.dateBegon, this.data.dateEnded).result 
+        } else {
+            this.duration = 'Not Finished or not Started yet';
+        }
+
+        console.log(this.duration)
 
         if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement = document.createElement('p') }
         if (this.data.githubUrl != '') { this.cardGithHubButton = document.createElement('button') }
