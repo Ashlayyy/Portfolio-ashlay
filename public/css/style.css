@@ -521,11 +521,6 @@ body {
   font-size: 115%;
   position: relative;
 }
-.ProjectCard_Upcoming .ProjectCard_name {
-  position: absolute;
-  top: 2rem;
-  margin-bottom: 5rem;
-}
 
 .UpcomingProjectCard {
   height: min-content;
