@@ -482,7 +482,7 @@ body {
 .ProjectCard_text {
   padding-top: 1rem;
   width: 40ch;
-  min-height: 20vh;
+  min-height: 10vh;
   padding-bottom: 2rem;
 }
 .ProjectCard_divider {
@@ -520,6 +520,9 @@ body {
   background: rgba(69, 45, 249, 0.1);
   font-size: 115%;
   position: relative;
+}
+.ProjectCard_Upcoming .ProjectCard_text {
+  min-height: 20vh;
 }
 
 .UpcomingProjectCard {
