@@ -83,7 +83,6 @@ Duur: ${this.duration}
         this.datumString.innerText = this.durationString;
 
         if (this.projectPage.isUpcoming == true) {
-            console.log(this.data)
             this.techStack.innerText = `Verwachting: ${this.data.verwachteTechStack}`
             if (this.data.verwachteServerTechStack != '' && this.data.verwachteServerTechStack != undefined) this.serverTechStack.innerText = `Verwachting server: ${this.data.verwachteServerTechStack}`
         } else {
