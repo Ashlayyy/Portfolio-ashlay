@@ -79,7 +79,7 @@ Duur: ${this.duration}
         this.datumString.innerText = this.durationString;
 
         if (this.projectPage.isUpcoming == true) {
-            this.techStack.innerText = `Talen gebruikt: ${this.data.verwachteTechStack}`
+            this.techStack.innerText = `Talen verwacht: ${this.data.verwachteTechStack}`
             if (this.data.ServerTechStack != '' && this.data.ServerTechStack != undefined) this.serverTechStack.innerText = `Server talen: ${this.data.verwachteServerTechStack}`
         } else {
             this.techStack.innerText = `Talen gebruikt: ${this.data.TechStack}`
