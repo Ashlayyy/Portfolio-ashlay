@@ -520,6 +520,10 @@ body {
   background: rgba(69, 45, 249, 0.1);
   font-size: 115%;
 }
+.ProjectCard_Upcoming_name {
+  position: absolute;
+  top: 2rem;
+}
 
 .UpcomingProjectCard {
   height: min-content;
