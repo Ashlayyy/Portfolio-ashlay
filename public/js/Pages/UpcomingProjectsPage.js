@@ -4,6 +4,7 @@ class UpcomingProjectsPage {
     RenderEngine = undefined;
     data = undefined;
     mainElement = undefined;
+    isUpcoming = true;
     
     constructor (data, RenderEngine) {
         this.data = data;

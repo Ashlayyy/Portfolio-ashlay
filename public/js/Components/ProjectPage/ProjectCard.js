@@ -54,7 +54,7 @@ Duur: ${this.duration}
     }
 
     addClasses = () => {
-        this.cardMainElement.classList = 'ProjectCard';
+        if (this.projectPage.isUpComing) {this.cardMainElement.classList = 'ProjectCard_Upcoming'} else this.cardMainElement.classList = 'ProjectCard';
         this.cardImage.classList = 'ProjectCard_img';
         this.cardNameText.classList = 'ProjectCard_name';
         this.cardText.classList = 'ProjectCard_text';
