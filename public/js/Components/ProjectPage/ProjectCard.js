@@ -65,10 +65,8 @@ Duur: ${this.duration}
         this.techStack.classList = 'ProjectCard_stack';
         this.serverTechStack.classList = 'ProjectCard_serverStack';
         
-        console.log(this.data.id)
-        if (this.data.id < 0 || this.data.id != 2 || this.data.id < 7) {
-            this.cardMainElement.classList.add('ProjectCard_gap')
-            console.log(this.data)
+        if (this.data.id == 2) {
+            console.log(this)
         }
         if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement.classList = 'ProjectCard_solo' }
         if (this.data.githubUrl != '') { this.cardGithHubButton.classList = 'ProjectCard_github ProjectCard_button' }
