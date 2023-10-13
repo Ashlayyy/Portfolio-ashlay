@@ -25,7 +25,7 @@ class ProjectCard {
         this.cardText = document.createElement('p');
         this.buttonDividerOne = document.createElement('div');
 
-        if (this.data.solo != '' || this.data.solo == undefined) { this.soloElement = document.createElement('p') }
+        if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement = document.createElement('p') }
         if (this.data.githubUrl != '') { this.cardGithHubButton = document.createElement('button') }
         if (this.data.liveUrl != '') { this.liveButton = document.createElement('button') }
         if (this.totalProjectPageDone) { this.cardExploreButton = document.createElement('button') }
@@ -38,7 +38,7 @@ class ProjectCard {
         this.cardText.classList = 'ProjectCard_text';
         this.buttonDividerOne.classList = 'ProjectCard_divider';
 
-        if (this.data.solo != '' || this.data.solo == undefined) { this.soloElement.classList = 'ProjectCard_solo' }
+        if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement.classList = 'ProjectCard_solo' }
         if (this.data.githubUrl != '') { this.cardGithHubButton.classList = 'ProjectCard_github ProjectCard_button' }
         if (this.data.liveUrl != '') { this.liveButton.classList = 'ProjectCard_live ProjectCard_button' }
         if (this.totalProjectPageDone) { this.cardExploreButton.classList = 'ProjectCard_explore ProjectCard_button' }
@@ -48,10 +48,9 @@ class ProjectCard {
         this.cardMainElement.id = this.data.id;
         this.cardNameText.innerText = this.data.name;
         this.cardImage.src = this.data.imgUrl;
-        //this.soloElement.innerText = this.data.solo;
         this.cardText.innerText = this.data.shortProjectTextDutch;
 
-        if (this.data.solo != '' || this.data.solo == undefined) { this.soloElement.innerText = this.data.solo }
+        if (this.data.solo != '' && this.data.solo != undefined) { this.soloElement.innerText = this.data.solo }
         if (this.data.githubUrl != '') { this.cardGithHubButton.innerHTML = '<i class="fa-brands fa-square-github fa-4x"></i>' }
         if (this.data.liveUrl != '') { this.liveButton.innerHTML = '<i class="fa-solid fa-globe fa-4x"></i>' }
         if (this.totalProjectPageDone) { this.cardExploreButton.innerHTML = '<i class="fa-solid fa-circle-info fa-4x"></i>' }
@@ -81,7 +80,7 @@ class ProjectCard {
     render = () => {
         this.projectPage.RenderEngine.render(this.cardMainElement, this.cardNameText);
         this.projectPage.RenderEngine.render(this.cardMainElement, this.cardImage);
-        if (this.data.solo != '' || this.data.solo == undefined) { this.projectPage.RenderEngine.render(this.cardMainElement, this.soloElement) }
+        if (this.data.solo != '' && this.data.solo != undefined) { this.projectPage.RenderEngine.render(this.cardMainElement, this.soloElement) }
         this.projectPage.RenderEngine.render(this.cardMainElement, this.cardText);
         this.projectPage.RenderEngine.render(this.cardMainElement, this.buttonDividerOne);
 
