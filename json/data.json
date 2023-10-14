@@ -232,7 +232,7 @@
         "longProjectTextEnglish": "",
         "verwachteTechStack": "HTML, SCSS & Javascript",
         "verwachteServerTechStack": "NodeJs, Express",
-        "hidden": "false"
+        "hidden": "true"
     }, {
         "id": "15",
         "name": "Signaller",
