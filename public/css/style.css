@@ -763,6 +763,9 @@ html {
   .introduction__text {
     width: 40ch;
   }
+  #Projects, #upcoming {
+    width: 100%;
+  }
   .ProjectCard {
     width: 20% !important;
     height: 70rem;
