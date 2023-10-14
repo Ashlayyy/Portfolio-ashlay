@@ -766,15 +766,26 @@ html {
   #Projects, #upcoming {
     width: 100%;
   }
-  .ProjectCard, .ProjectCard_Upcoming {
+  .ProjectCard {
     min-width: 30rem !important;
     height: 70rem;
     padding: 2.5rem;
   }
-  .ProjectCard_text, .ProjectCard_Upcoming_text {
+  .ProjectCard_text {
     width: 25ch;
   }
-  .ProjectCard_github, .ProjectCard_explore, .ProjectCard_live, .ProjectCard_Upcoming_github, .ProjectCard_Upcoming_explore, .ProjectCard_Upcoming_live {
+  .ProjectCard_github, .ProjectCard_explore, .ProjectCard_live {
+    font-size: 80%;
+  }
+  .ProjectCard_Upcoming {
+    min-width: 30rem !important;
+    height: 80rem;
+    padding: 2.5rem;
+  }
+  .ProjectCard_Upcoming_text {
+    width: 25ch;
+  }
+  .ProjectCard_Upcoming_github, .ProjectCard_Upcoming_explore, .ProjectCard_Upcoming_live {
     font-size: 80%;
   }
   .contact {

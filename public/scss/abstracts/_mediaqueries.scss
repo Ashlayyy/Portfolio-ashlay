@@ -32,9 +32,23 @@
         width: 100%;
     }
 
-    .ProjectCard, .ProjectCard_Upcoming {
+    .ProjectCard {
         min-width: 30rem !important;
         height: 70rem;
+        padding: 2.5rem;
+
+        &_text {
+            width: 25ch;
+        }
+
+        &_github, &_explore, &_live {
+            font-size: 80%;
+        }
+    }
+
+    .ProjectCard_Upcoming {
+        min-width: 30rem !important;
+        height: 80rem;
         padding: 2.5rem;
 
         &_text {
