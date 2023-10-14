@@ -760,8 +760,8 @@ html {
   .avatar_textContainer {
     gap: 5rem;
   }
-  .introduction__text {
-    width: 30ch;
+  .introduction_text {
+    width: 10ch;
   }
   .ProjectCard {
     min-width: 25rem;
