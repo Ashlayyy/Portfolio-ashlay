@@ -41,7 +41,6 @@ class UpcomingProjectsPage {
             if(this.data.UpComingProjects[i].hidden != 'true') {
                 this.RenderEngine.render(this.divider, new ProjectCard(this.data.UpComingProjects[i], this.data.UpComingProjects, this).cardMainElement);
             }
-            console.log(this.data.UpComingProjects[i].hidden)
         }
     }
 }
