@@ -768,7 +768,6 @@ html {
   }
   .ProjectCard {
     width: 20px !important;
-    display: none;
     height: 70rem;
     padding: 2.5rem;
   }
