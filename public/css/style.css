@@ -767,7 +767,7 @@ html {
     width: 100%;
   }
   .ProjectCard {
-    width: 20% !important;
+    width: 20px !important;
     height: 70rem;
     padding: 2.5rem;
   }
