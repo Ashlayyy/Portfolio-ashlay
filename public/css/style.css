@@ -780,7 +780,7 @@ html {
   }
   .ProjectCard_Upcoming {
     min-width: 30rem !important;
-    height: 80rem;
+    height: 70rem;
     padding: 2.5rem;
     font-size: 90%;
   }
