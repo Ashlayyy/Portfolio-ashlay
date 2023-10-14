@@ -765,8 +765,8 @@ html {
   }
   .ProjectCard {
     margin: 2rem;
-    width: 75%;
-    height: 90rem;
+    width: 10rem;
+    height: 80rem;
   }
   .ProjectCard_text {
     width: 25ch;
