@@ -38,7 +38,7 @@ class UpcomingProjectsPage {
         this.RenderEngine.render(this.mainElement, this.divider);
 
         for(let i = 0; i < this.data.UpComingProjects.length; i++) {
-            if(this.data.UpComingProjects[i].hidden == 'true') return console.log('hidden!');
+            if(this.data.UpComingProjects[i].hidden == 'true') console.log('hidden!');
             console.log(this.data.UpComingProjects[i].hidden)
             this.RenderEngine.render(this.divider, new ProjectCard(this.data.UpComingProjects[i], this.data.UpComingProjects, this).cardMainElement);
         }
