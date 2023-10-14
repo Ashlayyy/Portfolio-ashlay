@@ -23,7 +23,7 @@
         }
     }
     .introduction {
-        &_text {
+        &__text {
             width: 40ch;
           }
     }
@@ -31,6 +31,10 @@
     .ProjectCard {
         width: 75%;
         height: 90rem;
+
+        &_text {
+            width: 25ch;
+        }
 
         &_github, &_explore, &_live {
             font-size: 80%;

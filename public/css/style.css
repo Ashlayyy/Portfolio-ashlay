@@ -760,12 +760,15 @@ html {
   .avatar_textContainer {
     gap: 5rem;
   }
-  .introduction_text {
+  .introduction__text {
     width: 40ch;
   }
   .ProjectCard {
     width: 75%;
     height: 90rem;
+  }
+  .ProjectCard_text {
+    width: 25ch;
   }
   .ProjectCard_github, .ProjectCard_explore, .ProjectCard_live {
     font-size: 80%;
