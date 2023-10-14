@@ -770,6 +770,7 @@ html {
     min-width: 30rem !important;
     height: 70rem;
     padding: 2.5rem;
+    font-size: 90%;
   }
   .ProjectCard_text {
     width: 25ch;
@@ -781,6 +782,7 @@ html {
     min-width: 30rem !important;
     height: 80rem;
     padding: 2.5rem;
+    font-size: 90%;
   }
   .ProjectCard_Upcoming_text {
     width: 25ch;
