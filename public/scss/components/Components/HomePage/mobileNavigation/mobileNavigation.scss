@@ -3,8 +3,8 @@
 .mobileNavigation {
   background: rgba($color: #000000, $alpha: 0.85);
   display: none;
-  //position: -webkit-sticky;
-  position: absolute;
+  position: -webkit-sticky;
+  position: sticky;
   width: 100%;
   height: min-content;
   padding: 1.5rem;
@@ -12,7 +12,7 @@
   align-items: center;
   gap: 2.5rem;
   color: map-get(colors.$colors, "textColor");
-  bottom: 0;
+  bottom: 0dvh;
   filter: none;
   z-index: 9999;
   max-height: 7rem;

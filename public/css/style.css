@@ -106,7 +106,8 @@ body {
 .mobileNavigation {
   background: rgba(0, 0, 0, 0.85);
   display: none;
-  position: absolute;
+  position: -webkit-sticky;
+  position: sticky;
   width: 100%;
   height: min-content;
   padding: 1.5rem;
@@ -114,7 +115,7 @@ body {
   align-items: center;
   gap: 2.5rem;
   color: #e9ffff;
-  bottom: 0;
+  bottom: 0dvh;
   filter: none;
   z-index: 9999;
   max-height: 7rem;
