@@ -106,8 +106,7 @@ body {
 .mobileNavigation {
   background: rgba(0, 0, 0, 0.85);
   display: none;
-  position: -webkit-sticky;
-  position: sticky;
+  position: absolute;
   width: 100%;
   height: min-content;
   padding: 1.5rem;
