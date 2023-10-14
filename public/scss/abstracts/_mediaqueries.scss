@@ -8,11 +8,6 @@
         min-height: min-content;
         height: max-content;
     }
-
-    .ProjectCard {
-        //min-width: 35rem;
-        //height: 75rem;
-    }
 }
 
 @media screen and (max-width: 850px), screen and (max-device-width: 850px) {
@@ -29,14 +24,13 @@
     }
     .introduction {
         &__text {
-            width: 40ch;
+            width: 30ch;
           }
     }
 
     .ProjectCard {
         min-width: 25rem;
-        height: 50rem;
-        //max-height: 70rem;
+        height: 80rem;
 
         &_github, &_explore, &_live {
             font-size: 80%;

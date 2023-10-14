@@ -761,11 +761,11 @@ html {
     gap: 5rem;
   }
   .introduction__text {
-    width: 40ch;
+    width: 30ch;
   }
   .ProjectCard {
     min-width: 25rem;
-    height: 50rem;
+    height: 80rem;
   }
   .ProjectCard_github, .ProjectCard_explore, .ProjectCard_live {
     font-size: 80%;
