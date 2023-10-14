@@ -766,6 +766,7 @@ html {
   .ProjectCard {
     max-width: 10%;
     height: 80rem;
+    padding: 2.5rem;
   }
   .ProjectCard_text {
     width: 25ch;
