@@ -4,7 +4,6 @@ class ProjectsPage {
     RenderEngine = undefined;
     data = undefined;
     mainElement = undefined;
-    amountOfCards = 6;
     
     constructor (data, RenderEngine) {
         this.data = data;
