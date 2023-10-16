@@ -29,6 +29,7 @@ app.use(helmet.contentSecurityPolicy({
       "https://kit.fontawesome.com/", 
       "https://www.googletagmanager.com/", 
       "https://ashlaydev.com/",
+      "https://www.ashlaydev.com/",
       "'unsafe-inline'",
       "*.cloudflare.com"
     ],
@@ -36,18 +37,21 @@ app.use(helmet.contentSecurityPolicy({
       "self", 
       "https://ka-f.fontawesome.com/",
       "https://ashlaydev.com/",
+      "https://www.ashlaydev.com/",
       "*.cloudflare.com/"
     ],
     "style-src": [
       "self",
       "'unsafe-inline'",
       "https://ashlaydev.com/",
+      "https://www.ashlaydev.com/",
       "*.cloudflare.com"
     ],
     "connect-src": [
       "self", 
       "https://ka-f.fontawesome.com/",
       "https://ashlaydev.com/",
+      "https://www.ashlaydev.com/",
       "https://*.google-analytics.com/"
     ]
   },
