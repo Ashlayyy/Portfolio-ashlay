@@ -21,6 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(bodyParser.raw());
 
+/*
 app.use(helmet.contentSecurityPolicy({
   useDefaults: true,
   directives: {
@@ -79,6 +80,7 @@ app.use(
   })
 )
 app.use(helmet.xssFilter());
+*/
 app.use(morgan('dev'));
 
 
