@@ -1,6 +1,6 @@
 {
     "name": "portfolio-ashlay",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "This is my personal portfolio",
     "main": "server.js",
     "scripts": {
