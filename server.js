@@ -54,6 +54,7 @@ app.use(
         "https://www.ashlaydev.com/",
         "*.cloudflare.com",
         "https://forms-eu1.hsforms.com/",
+        "https://track-eu1.hubspot.com/",
       ],
       "connect-src": [
         "self",
