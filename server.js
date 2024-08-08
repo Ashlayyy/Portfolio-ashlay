@@ -30,7 +30,9 @@ app.use(helmet.contentSecurityPolicy({
       "https://www.googletagmanager.com/", 
       "https://ashlaydev.com/",
       "https://www.ashlaydev.com/",
-      "https://*-eu1.hs-*.com/",
+      "https://js-eu1.hs-scripts.com/",
+      "https://js-eu1.hs-banners.com/",
+      "https://js-eu1.hs-*.com/",
       "'unsafe-inline'",
       "*.cloudflare.com"
     ],
