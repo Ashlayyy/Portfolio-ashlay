@@ -53,6 +53,7 @@ app.use(
         "https://ashlaydev.com/",
         "https://www.ashlaydev.com/",
         "*.cloudflare.com",
+        "https://forms-eu1.hsforms.com/",
       ],
       "connect-src": [
         "self",
@@ -60,6 +61,7 @@ app.use(
         "https://ashlaydev.com/",
         "https://www.ashlaydev.com/",
         "https://*.google-analytics.com/",
+        "https://forms-eu1.hscollectedforms.net/",
       ],
     },
   })
