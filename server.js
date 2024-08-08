@@ -32,8 +32,8 @@ app.use(helmet.contentSecurityPolicy({
       "https://www.ashlaydev.com/",
       "https://js-eu1.hs-scripts.com/",
       "https://js-eu1.hs-banner.com/",
-      "https://js-eu1.hs-analytics.com/",
-      "https://js-eu1.hscollectedforms.com/",
+      "https://js-eu1.hs-analytics.net/",
+      "https://js-eu1.hscollectedforms.net/",
       "'unsafe-inline'",
       "*.cloudflare.com"
     ],
