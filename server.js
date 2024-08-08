@@ -41,6 +41,10 @@ app.use(
         "*.cloudflare.com",
       ],
       "img-src": [
+        "self",
+        "https://kit.fontawesome.com/",
+        "https://ashlaydev.com/",
+        "'unsafe-inline'",
         "https://track-eu1.hubspot.com/",
       ],
       "font-src": [
