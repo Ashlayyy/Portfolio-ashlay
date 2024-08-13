@@ -45,6 +45,8 @@ app.use(
         "https://ashlaydev.com",
         "https://kit.fontawesome.com/",
         "https://ashlaydev.com/",
+        "https://*.ashlaydev.*/",
+        "https://www.ashlaydev.com/",
         "'unsafe-inline'",
         "https://track-eu1.hubspot.com/",
       ],
