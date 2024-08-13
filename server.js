@@ -42,6 +42,7 @@ app.use(
       ],
       "img-src": [
         "self",
+        "https://ashlaydev.com",
         "https://kit.fontawesome.com/",
         "https://ashlaydev.com/",
         "'unsafe-inline'",
