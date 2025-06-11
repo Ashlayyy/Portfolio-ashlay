@@ -1,5 +1,4 @@
-![Logo](https://ashlaydev.com/images/Logo/Logo-Ash.webp)
-
+![Logo](https://ashlaydev.com/old/images/Logo/Logo-Ash.webp)
 
 # Portfolio Ashlay Steur
 
@@ -9,13 +8,11 @@ Dit project is mijn eigen portfolio, hierop staan al mijn belangrijke projecten 
 
 https://ashlaydev.com
 
-
 ## Tech Stack
 
 **Client:** Javascript (OOP), HTML, SCSS
 
 **Server:** Node, Express
-
 
 ## Roadmap
 
@@ -26,9 +23,6 @@ https://ashlaydev.com
 - Responsive maken van kleine telefoons tot 4k schermen
 - Code schoner maken
 
-
 ## Authors
 
 - [@Ashlayyy](https://www.github.com/Ashlayyy)
-
-
